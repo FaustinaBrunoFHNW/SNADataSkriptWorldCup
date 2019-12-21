@@ -30,31 +30,25 @@ public class Reader {
 
         try {
             BufferedReader br;
-            //   System.out.println(spamFile.getAbsolutePath().toString()+ " File wird geprüft");
             br = new BufferedReader(csvFile);
             String game = br.readLine();
-            //  System.out.println(linie.toString() + " diese Linie wird geprüft");
 
             while (game != null) {
 
                 game = br.readLine();
-                String[] spielAttributeArray = game.split(",");
+                if(game !=null) {
+                    String[] spielAttributeArray = game.split(",");
+                   // System.out.println(spielAttributeArray[0]);
+                    FussballSpiel fussballSpiel = this.fussballspielbefüllen(spielAttributeArray);
 
-              //  for (int i = 0; i < spielAttributeArray.length; i++) {
-                    System.out.println(spielAttributeArray[0]);
-             //   }
-
-                FussballSpiel fussballSpiel =   this.fussballspielbefüllen(spielAttributeArray);
-
-                fussballSpiele.add(fussballSpiel);
-                counter++;
+                    fussballSpiele.add(fussballSpiel);
+                    counter++;
+                }
             }
 
-            //    System.out.println("Diese Mail hat " + email.getWoerter().size() + "  Woerter");
-
-            //    spamMails.add(email);
-            System.out.println(counter);
+           // System.out.println(counter);
             br.close();
+
 
         } catch (FileNotFoundException e) {
 
@@ -65,7 +59,8 @@ public class Reader {
             System.out.println("Beim einlesen ist was schief gelaufen");
             e.printStackTrace();
         }
-
+        //System.out.println(counter);
+        System.out.println(fussballSpiele.size());
     }
 
     //TODO Alle Attr befüllen
