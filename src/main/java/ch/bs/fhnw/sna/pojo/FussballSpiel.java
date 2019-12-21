@@ -104,46 +104,46 @@ public class FussballSpiel {
     // private String   away_team_events_4_id;
     private String away_team_events_4_type_of_event_99;
     private String away_team_events_4_player_100;
-    // private String    away_team_events_4_time;
-    //  private String   away_team_events_5_id;
-    private String away_team_events_5_type_of_event;
-    private String away_team_events_5_player;
+    // private String    away_team_events_4_time_101;
+    //  private String   away_team_events_5_id_102;
+    private String away_team_events_5_type_of_event_103;
+    private String away_team_events_5_player_104;
     // private String    away_team_events_5_time;
     //  private String   away_team_events_6_id;
-    private String away_team_events_6_type_of_event;
-    private String away_team_events_6_player;
+    private String away_team_events_6_type_of_event_107;
+    private String away_team_events_6_player_108;
     // private String away_team_events_6_time;
     // private String away_team_events_7_id;
-    private String away_team_events_7_type_of_event;
-    private String away_team_events_7_player;
+    private String away_team_events_7_type_of_event_111;
+    private String away_team_events_7_player_112;
     // private String away_team_events_7_time;
-    private String home_team_statistics_country;
-    private String home_team_statistics_attempts_on_goal;
-    private String home_team_statistics_on_target;
-    private String home_team_statistics_off_target;
-    private String home_team_statistics_blocked;
-    private String home_team_statistics_woodwork;
-    private String home_team_statistics_corners;
-    private String home_team_statistics_offsides;
-    private String home_team_statistics_ball_possession;
-    private String home_team_statistics_pass_accuracy;
-    private String home_team_statistics_num_passes;
-    private String home_team_statistics_passes_completed;
-    private String home_team_statistics_distance_covered;
-    private String home_team_statistics_balls_recovered;
-    private String home_team_statistics_tackles;
-    private String home_team_statistics_clearances;
-    private String home_team_statistics_yellow_cards;
-    private String home_team_statistics_red_cards;
-    private String home_team_statistics_fouls_committed;
-    private String home_team_statistics_tactics;
+    private String home_team_statistics_country_114;
+    private String home_team_statistics_attempts_on_goal_115;
+    private String home_team_statistics_on_target_116;
+    private String home_team_statistics_off_target_117;
+    private String home_team_statistics_blocked_118;
+    private String home_team_statistics_woodwork_119;
+    private String home_team_statistics_corners_120;
+    private String home_team_statistics_offsides_121;
+    private String home_team_statistics_ball_possession_122;
+    private String home_team_statistics_pass_accuracy_123;
+    private String home_team_statistics_num_passes_124;
+    private String home_team_statistics_passes_completed_125;
+    private String home_team_statistics_distance_covered_126;
+    private String home_team_statistics_balls_recovered_127;
+    private String home_team_statistics_tackles_128;
+    private String home_team_statistics_clearances_129;
+    private String home_team_statistics_yellow_cards_130;
+    private String home_team_statistics_red_cards_131;
+    private String home_team_statistics_fouls_committed_132;
+    private String home_team_statistics_tactics_133;
     // private String   home_team_statistics_starting_eleven_0_name;
     // private String   home_team_statistics_starting_eleven_0_captain;
     // private String   home_team_statistics_starting_eleven_0_shirt_number;
     // private String   home_team_statistics_starting_eleven_0_position;
     // private String   home_team_statistics_starting_eleven_1_name;
     // private String   home_team_statistics_starting_eleven_1_captain;
-    // private String   home_team_statistics_starting_eleven_1_shirt_number;
+    // private String   home_team_statistics_starting_eleven_1_shirt_number_140;
     // private String   home_team_statistics_starting_eleven_1_position;
     // private String   home_team_statistics_starting_eleven_2_name;
     // private String   home_team_statistics_starting_eleven_2_captain;
@@ -153,7 +153,7 @@ public class FussballSpiel {
     // private String   home_team_statistics_starting_eleven_3_captain;
     // private String   home_team_statistics_starting_eleven_3_shirt_number;
     // private String   home_team_statistics_starting_eleven_3_position;
-    // private String   home_team_statistics_starting_eleven_4_name;
+    // private String   home_team_statistics_starting_eleven_4_name_150;
     // private String   home_team_statistics_starting_eleven_4_captain;
     // private String   home_team_statistics_starting_eleven_4_shirt_number;
     // private String   home_team_statistics_starting_eleven_4_position;
@@ -163,7 +163,7 @@ public class FussballSpiel {
     // private String   home_team_statistics_starting_eleven_5_position;
     // private String   home_team_statistics_starting_eleven_6_name;
     // private String   home_team_statistics_starting_eleven_6_captain;
-    // private String   home_team_statistics_starting_eleven_6_shirt_number;
+    // private String   home_team_statistics_starting_eleven_6_shirt_number_160;
     // private String   home_team_statistics_starting_eleven_6_position;
     // private String   home_team_statistics_starting_eleven_7_name;
     // private String   home_team_statistics_starting_eleven_7_captain;
@@ -173,7 +173,7 @@ public class FussballSpiel {
     // private String   home_team_statistics_starting_eleven_8_captain;
     // private String   home_team_statistics_starting_eleven_8_shirt_number;
     // private String   home_team_statistics_starting_eleven_8_position;
-    // private String   home_team_statistics_starting_eleven_9_name;
+    // private String   home_team_statistics_starting_eleven_9_name_170;
     // private String   home_team_statistics_starting_eleven_9_captain;
     // private String   home_team_statistics_starting_eleven_9_shirt_number;
     // private String   home_team_statistics_starting_eleven_9_position;
@@ -183,7 +183,7 @@ public class FussballSpiel {
     // private String   home_team_statistics_starting_eleven_10_position;
     // private String   home_team_statistics_substitutes_0_name;
     // private String   home_team_statistics_substitutes_0_captain;
-    // private String   home_team_statistics_substitutes_0_shirt_number;
+    // private String   home_team_statistics_substitutes_0_shirt_number_180;
     // private String   home_team_statistics_substitutes_0_position;
     // private String   home_team_statistics_substitutes_1_name;
     // private String   home_team_statistics_substitutes_1_captain;
@@ -193,7 +193,7 @@ public class FussballSpiel {
     // private String   home_team_statistics_substitutes_2_captain;
     // private String   home_team_statistics_substitutes_2_shirt_number;
     // private String   home_team_statistics_substitutes_2_position;
-    // private String   home_team_statistics_substitutes_3_name;
+    // private String   home_team_statistics_substitutes_3_name_190;
     // private String   home_team_statistics_substitutes_3_captain;
     // private String   home_team_statistics_substitutes_3_shirt_number;
     // private String   home_team_statistics_substitutes_3_position;
@@ -203,7 +203,7 @@ public class FussballSpiel {
     // private String   home_team_statistics_substitutes_4_position;
     // private String   home_team_statistics_substitutes_5_name;
     // private String   home_team_statistics_substitutes_5_captain;
-    // private String   home_team_statistics_substitutes_5_shirt_number;
+    // private String   home_team_statistics_substitutes_5_shirt_number_200;
     // private String   home_team_statistics_substitutes_5_position;
     // private String   home_team_statistics_substitutes_6_name;
     // private String   home_team_statistics_substitutes_6_captain;
@@ -213,7 +213,7 @@ public class FussballSpiel {
     // private String   home_team_statistics_substitutes_7_captain;
     // private String   home_team_statistics_substitutes_7_shirt_number;
     // private String   home_team_statistics_substitutes_7_position;
-    // private String   home_team_statistics_substitutes_8_name;
+    // private String   home_team_statistics_substitutes_8_name_210;
     // private String   home_team_statistics_substitutes_8_captain;
     // private String   home_team_statistics_substitutes_8_shirt_number;
     // private String   home_team_statistics_substitutes_8_position;
@@ -223,32 +223,32 @@ public class FussballSpiel {
     // private String   home_team_statistics_substitutes_9_position;
     // private String   home_team_statistics_substitutes_10_name;
     // private String   home_team_statistics_substitutes_10_captain;
-    // private String   home_team_statistics_substitutes_10_shirt_number;
+    // private String   home_team_statistics_substitutes_10_shirt_number_220;
     // private String   home_team_statistics_substitutes_10_position;
     // private String   home_team_statistics_substitutes_11_name;
     // private String   home_team_statistics_substitutes_11_captain;
     // private String   home_team_statistics_substitutes_11_shirt_number;
     // private String   home_team_statistics_substitutes_11_position;
-    private String away_team_statistics_country;
-    private String away_team_statistics_attempts_on_goal;
-    private String away_team_statistics_on_target;
-    private String away_team_statistics_off_target;
-    private String away_team_statistics_blocked;
-    private String away_team_statistics_woodwork;
-    private String away_team_statistics_corners;
-    private String away_team_statistics_offsides;
-    private String away_team_statistics_ball_possession;
-    private String away_team_statistics_pass_accuracy;
-    private String away_team_statistics_num_passes;
-    private String away_team_statistics_passes_completed;
-    private String away_team_statistics_distance_covered;
-    private String away_team_statistics_balls_recovered;
-    private String away_team_statistics_tackles;
-    private String away_team_statistics_clearances;
-    private String away_team_statistics_yellow_cards;
-    private String away_team_statistics_red_cards;
-    private String away_team_statistics_fouls_committed;
-    private String away_team_statistics_tactics;
+    private String away_team_statistics_country_226;
+    private String away_team_statistics_attempts_on_goal_227;
+    private String away_team_statistics_on_target_228;
+    private String away_team_statistics_off_target_229;
+    private String away_team_statistics_blocked_230;
+    private String away_team_statistics_woodwork_231;
+    private String away_team_statistics_corners_232;
+    private String away_team_statistics_offsides_233;
+    private String away_team_statistics_ball_possession_234;
+    private String away_team_statistics_pass_accuracy_235;
+    private String away_team_statistics_num_passes_236;
+    private String away_team_statistics_passes_completed_237;
+    private String away_team_statistics_distance_covered_238;
+    private String away_team_statistics_balls_recovered_239;
+    private String away_team_statistics_tackles_240;
+    private String away_team_statistics_clearances_241;
+    private String away_team_statistics_yellow_cards_242;
+    private String away_team_statistics_red_cards_243;
+    private String away_team_statistics_fouls_committed_244;
+    private String away_team_statistics_tactics_245;
     // private String   away_team_statistics_starting_eleven_0_name;
     // private String   away_team_statistics_starting_eleven_0_captain;
     // private String   away_team_statistics_starting_eleven_0_shirt_number;
@@ -796,372 +796,372 @@ public class FussballSpiel {
         this.away_team_events_4_player_100 = away_team_events_4_player_100;
     }
 
-    public String getAway_team_events_5_type_of_event() {
-        return away_team_events_5_type_of_event;
+    public String getAway_team_events_5_type_of_event_103() {
+        return away_team_events_5_type_of_event_103;
     }
 
-    public void setAway_team_events_5_type_of_event(String away_team_events_5_type_of_event) {
-        this.away_team_events_5_type_of_event = away_team_events_5_type_of_event;
+    public void setAway_team_events_5_type_of_event_103(String away_team_events_5_type_of_event_103) {
+        this.away_team_events_5_type_of_event_103 = away_team_events_5_type_of_event_103;
     }
 
-    public String getAway_team_events_5_player() {
-        return away_team_events_5_player;
+    public String getAway_team_events_5_player_104() {
+        return away_team_events_5_player_104;
     }
 
-    public void setAway_team_events_5_player(String away_team_events_5_player) {
-        this.away_team_events_5_player = away_team_events_5_player;
+    public void setAway_team_events_5_player_104(String away_team_events_5_player_104) {
+        this.away_team_events_5_player_104 = away_team_events_5_player_104;
     }
 
-    public String getAway_team_events_6_type_of_event() {
-        return away_team_events_6_type_of_event;
+    public String getAway_team_events_6_type_of_event_107() {
+        return away_team_events_6_type_of_event_107;
     }
 
-    public void setAway_team_events_6_type_of_event(String away_team_events_6_type_of_event) {
-        this.away_team_events_6_type_of_event = away_team_events_6_type_of_event;
+    public void setAway_team_events_6_type_of_event_107(String away_team_events_6_type_of_event_107) {
+        this.away_team_events_6_type_of_event_107 = away_team_events_6_type_of_event_107;
     }
 
-    public String getAway_team_events_6_player() {
-        return away_team_events_6_player;
+    public String getAway_team_events_6_player_108() {
+        return away_team_events_6_player_108;
     }
 
-    public void setAway_team_events_6_player(String away_team_events_6_player) {
-        this.away_team_events_6_player = away_team_events_6_player;
+    public void setAway_team_events_6_player_108(String away_team_events_6_player_108) {
+        this.away_team_events_6_player_108 = away_team_events_6_player_108;
     }
 
-    public String getAway_team_events_7_type_of_event() {
-        return away_team_events_7_type_of_event;
+    public String getAway_team_events_7_type_of_event_111() {
+        return away_team_events_7_type_of_event_111;
     }
 
-    public void setAway_team_events_7_type_of_event(String away_team_events_7_type_of_event) {
-        this.away_team_events_7_type_of_event = away_team_events_7_type_of_event;
+    public void setAway_team_events_7_type_of_event_111(String away_team_events_7_type_of_event_111) {
+        this.away_team_events_7_type_of_event_111 = away_team_events_7_type_of_event_111;
     }
 
-    public String getAway_team_events_7_player() {
-        return away_team_events_7_player;
+    public String getAway_team_events_7_player_112() {
+        return away_team_events_7_player_112;
     }
 
-    public void setAway_team_events_7_player(String away_team_events_7_player) {
-        this.away_team_events_7_player = away_team_events_7_player;
+    public void setAway_team_events_7_player_112(String away_team_events_7_player_112) {
+        this.away_team_events_7_player_112 = away_team_events_7_player_112;
     }
 
-    public String getHome_team_statistics_country() {
-        return home_team_statistics_country;
+    public String getHome_team_statistics_country_114() {
+        return home_team_statistics_country_114;
     }
 
-    public void setHome_team_statistics_country(String home_team_statistics_country) {
-        this.home_team_statistics_country = home_team_statistics_country;
+    public void setHome_team_statistics_country_114(String home_team_statistics_country_114) {
+        this.home_team_statistics_country_114 = home_team_statistics_country_114;
     }
 
-    public String getHome_team_statistics_attempts_on_goal() {
-        return home_team_statistics_attempts_on_goal;
+    public String getHome_team_statistics_attempts_on_goal_115() {
+        return home_team_statistics_attempts_on_goal_115;
     }
 
-    public void setHome_team_statistics_attempts_on_goal(String home_team_statistics_attempts_on_goal) {
-        this.home_team_statistics_attempts_on_goal = home_team_statistics_attempts_on_goal;
+    public void setHome_team_statistics_attempts_on_goal_115(String home_team_statistics_attempts_on_goal_115) {
+        this.home_team_statistics_attempts_on_goal_115 = home_team_statistics_attempts_on_goal_115;
     }
 
-    public String getHome_team_statistics_on_target() {
-        return home_team_statistics_on_target;
+    public String getHome_team_statistics_on_target_116() {
+        return home_team_statistics_on_target_116;
     }
 
-    public void setHome_team_statistics_on_target(String home_team_statistics_on_target) {
-        this.home_team_statistics_on_target = home_team_statistics_on_target;
+    public void setHome_team_statistics_on_target_116(String home_team_statistics_on_target_116) {
+        this.home_team_statistics_on_target_116 = home_team_statistics_on_target_116;
     }
 
-    public String getHome_team_statistics_off_target() {
-        return home_team_statistics_off_target;
+    public String getHome_team_statistics_off_target_117() {
+        return home_team_statistics_off_target_117;
     }
 
-    public void setHome_team_statistics_off_target(String home_team_statistics_off_target) {
-        this.home_team_statistics_off_target = home_team_statistics_off_target;
+    public void setHome_team_statistics_off_target_117(String home_team_statistics_off_target_117) {
+        this.home_team_statistics_off_target_117 = home_team_statistics_off_target_117;
     }
 
-    public String getHome_team_statistics_blocked() {
-        return home_team_statistics_blocked;
+    public String getHome_team_statistics_blocked_118() {
+        return home_team_statistics_blocked_118;
     }
 
-    public void setHome_team_statistics_blocked(String home_team_statistics_blocked) {
-        this.home_team_statistics_blocked = home_team_statistics_blocked;
+    public void setHome_team_statistics_blocked_118(String home_team_statistics_blocked_118) {
+        this.home_team_statistics_blocked_118 = home_team_statistics_blocked_118;
     }
 
-    public String getHome_team_statistics_woodwork() {
-        return home_team_statistics_woodwork;
+    public String getHome_team_statistics_woodwork_119() {
+        return home_team_statistics_woodwork_119;
     }
 
-    public void setHome_team_statistics_woodwork(String home_team_statistics_woodwork) {
-        this.home_team_statistics_woodwork = home_team_statistics_woodwork;
+    public void setHome_team_statistics_woodwork_119(String home_team_statistics_woodwork_119) {
+        this.home_team_statistics_woodwork_119 = home_team_statistics_woodwork_119;
     }
 
-    public String getHome_team_statistics_corners() {
-        return home_team_statistics_corners;
+    public String getHome_team_statistics_corners_120() {
+        return home_team_statistics_corners_120;
     }
 
-    public void setHome_team_statistics_corners(String home_team_statistics_corners) {
-        this.home_team_statistics_corners = home_team_statistics_corners;
+    public void setHome_team_statistics_corners_120(String home_team_statistics_corners_120) {
+        this.home_team_statistics_corners_120 = home_team_statistics_corners_120;
     }
 
-    public String getHome_team_statistics_offsides() {
-        return home_team_statistics_offsides;
+    public String getHome_team_statistics_offsides_121() {
+        return home_team_statistics_offsides_121;
     }
 
-    public void setHome_team_statistics_offsides(String home_team_statistics_offsides) {
-        this.home_team_statistics_offsides = home_team_statistics_offsides;
+    public void setHome_team_statistics_offsides_121(String home_team_statistics_offsides_121) {
+        this.home_team_statistics_offsides_121 = home_team_statistics_offsides_121;
     }
 
-    public String getHome_team_statistics_ball_possession() {
-        return home_team_statistics_ball_possession;
+    public String getHome_team_statistics_ball_possession_122() {
+        return home_team_statistics_ball_possession_122;
     }
 
-    public void setHome_team_statistics_ball_possession(String home_team_statistics_ball_possession) {
-        this.home_team_statistics_ball_possession = home_team_statistics_ball_possession;
+    public void setHome_team_statistics_ball_possession_122(String home_team_statistics_ball_possession_122) {
+        this.home_team_statistics_ball_possession_122 = home_team_statistics_ball_possession_122;
     }
 
-    public String getHome_team_statistics_pass_accuracy() {
-        return home_team_statistics_pass_accuracy;
+    public String getHome_team_statistics_pass_accuracy_123() {
+        return home_team_statistics_pass_accuracy_123;
     }
 
-    public void setHome_team_statistics_pass_accuracy(String home_team_statistics_pass_accuracy) {
-        this.home_team_statistics_pass_accuracy = home_team_statistics_pass_accuracy;
+    public void setHome_team_statistics_pass_accuracy_123(String home_team_statistics_pass_accuracy_123) {
+        this.home_team_statistics_pass_accuracy_123 = home_team_statistics_pass_accuracy_123;
     }
 
-    public String getHome_team_statistics_num_passes() {
-        return home_team_statistics_num_passes;
+    public String getHome_team_statistics_num_passes_124() {
+        return home_team_statistics_num_passes_124;
     }
 
-    public void setHome_team_statistics_num_passes(String home_team_statistics_num_passes) {
-        this.home_team_statistics_num_passes = home_team_statistics_num_passes;
+    public void setHome_team_statistics_num_passes_124(String home_team_statistics_num_passes_124) {
+        this.home_team_statistics_num_passes_124 = home_team_statistics_num_passes_124;
     }
 
-    public String getHome_team_statistics_passes_completed() {
-        return home_team_statistics_passes_completed;
+    public String getHome_team_statistics_passes_completed_125() {
+        return home_team_statistics_passes_completed_125;
     }
 
-    public void setHome_team_statistics_passes_completed(String home_team_statistics_passes_completed) {
-        this.home_team_statistics_passes_completed = home_team_statistics_passes_completed;
+    public void setHome_team_statistics_passes_completed_125(String home_team_statistics_passes_completed_125) {
+        this.home_team_statistics_passes_completed_125 = home_team_statistics_passes_completed_125;
     }
 
-    public String getHome_team_statistics_distance_covered() {
-        return home_team_statistics_distance_covered;
+    public String getHome_team_statistics_distance_covered_126() {
+        return home_team_statistics_distance_covered_126;
     }
 
-    public void setHome_team_statistics_distance_covered(String home_team_statistics_distance_covered) {
-        this.home_team_statistics_distance_covered = home_team_statistics_distance_covered;
+    public void setHome_team_statistics_distance_covered_126(String home_team_statistics_distance_covered_126) {
+        this.home_team_statistics_distance_covered_126 = home_team_statistics_distance_covered_126;
     }
 
-    public String getHome_team_statistics_balls_recovered() {
-        return home_team_statistics_balls_recovered;
+    public String getHome_team_statistics_balls_recovered_127() {
+        return home_team_statistics_balls_recovered_127;
     }
 
-    public void setHome_team_statistics_balls_recovered(String home_team_statistics_balls_recovered) {
-        this.home_team_statistics_balls_recovered = home_team_statistics_balls_recovered;
+    public void setHome_team_statistics_balls_recovered_127(String home_team_statistics_balls_recovered_127) {
+        this.home_team_statistics_balls_recovered_127 = home_team_statistics_balls_recovered_127;
     }
 
-    public String getHome_team_statistics_tackles() {
-        return home_team_statistics_tackles;
+    public String getHome_team_statistics_tackles_128() {
+        return home_team_statistics_tackles_128;
     }
 
-    public void setHome_team_statistics_tackles(String home_team_statistics_tackles) {
-        this.home_team_statistics_tackles = home_team_statistics_tackles;
+    public void setHome_team_statistics_tackles_128(String home_team_statistics_tackles_128) {
+        this.home_team_statistics_tackles_128 = home_team_statistics_tackles_128;
     }
 
-    public String getHome_team_statistics_clearances() {
-        return home_team_statistics_clearances;
+    public String getHome_team_statistics_clearances_129() {
+        return home_team_statistics_clearances_129;
     }
 
-    public void setHome_team_statistics_clearances(String home_team_statistics_clearances) {
-        this.home_team_statistics_clearances = home_team_statistics_clearances;
+    public void setHome_team_statistics_clearances_129(String home_team_statistics_clearances_129) {
+        this.home_team_statistics_clearances_129 = home_team_statistics_clearances_129;
     }
 
-    public String getHome_team_statistics_yellow_cards() {
-        return home_team_statistics_yellow_cards;
+    public String getHome_team_statistics_yellow_cards_130() {
+        return home_team_statistics_yellow_cards_130;
     }
 
-    public void setHome_team_statistics_yellow_cards(String home_team_statistics_yellow_cards) {
-        this.home_team_statistics_yellow_cards = home_team_statistics_yellow_cards;
+    public void setHome_team_statistics_yellow_cards_130(String home_team_statistics_yellow_cards_130) {
+        this.home_team_statistics_yellow_cards_130 = home_team_statistics_yellow_cards_130;
     }
 
-    public String getHome_team_statistics_red_cards() {
-        return home_team_statistics_red_cards;
+    public String getHome_team_statistics_red_cards_131() {
+        return home_team_statistics_red_cards_131;
     }
 
-    public void setHome_team_statistics_red_cards(String home_team_statistics_red_cards) {
-        this.home_team_statistics_red_cards = home_team_statistics_red_cards;
+    public void setHome_team_statistics_red_cards_131(String home_team_statistics_red_cards_131) {
+        this.home_team_statistics_red_cards_131 = home_team_statistics_red_cards_131;
     }
 
-    public String getHome_team_statistics_fouls_committed() {
-        return home_team_statistics_fouls_committed;
+    public String getHome_team_statistics_fouls_committed_132() {
+        return home_team_statistics_fouls_committed_132;
     }
 
-    public void setHome_team_statistics_fouls_committed(String home_team_statistics_fouls_committed) {
-        this.home_team_statistics_fouls_committed = home_team_statistics_fouls_committed;
+    public void setHome_team_statistics_fouls_committed_132(String home_team_statistics_fouls_committed_132) {
+        this.home_team_statistics_fouls_committed_132 = home_team_statistics_fouls_committed_132;
     }
 
-    public String getHome_team_statistics_tactics() {
-        return home_team_statistics_tactics;
+    public String getHome_team_statistics_tactics_133() {
+        return home_team_statistics_tactics_133;
     }
 
-    public void setHome_team_statistics_tactics(String home_team_statistics_tactics) {
-        this.home_team_statistics_tactics = home_team_statistics_tactics;
+    public void setHome_team_statistics_tactics_133(String home_team_statistics_tactics_133) {
+        this.home_team_statistics_tactics_133 = home_team_statistics_tactics_133;
     }
 
-    public String getAway_team_statistics_country() {
-        return away_team_statistics_country;
+    public String getAway_team_statistics_country_226() {
+        return away_team_statistics_country_226;
     }
 
-    public void setAway_team_statistics_country(String away_team_statistics_country) {
-        this.away_team_statistics_country = away_team_statistics_country;
+    public void setAway_team_statistics_country_226(String away_team_statistics_country_226) {
+        this.away_team_statistics_country_226 = away_team_statistics_country_226;
     }
 
-    public String getAway_team_statistics_attempts_on_goal() {
-        return away_team_statistics_attempts_on_goal;
+    public String getAway_team_statistics_attempts_on_goal_227() {
+        return away_team_statistics_attempts_on_goal_227;
     }
 
-    public void setAway_team_statistics_attempts_on_goal(String away_team_statistics_attempts_on_goal) {
-        this.away_team_statistics_attempts_on_goal = away_team_statistics_attempts_on_goal;
+    public void setAway_team_statistics_attempts_on_goal_227(String away_team_statistics_attempts_on_goal_227) {
+        this.away_team_statistics_attempts_on_goal_227 = away_team_statistics_attempts_on_goal_227;
     }
 
-    public String getAway_team_statistics_on_target() {
-        return away_team_statistics_on_target;
+    public String getAway_team_statistics_on_target_228() {
+        return away_team_statistics_on_target_228;
     }
 
-    public void setAway_team_statistics_on_target(String away_team_statistics_on_target) {
-        this.away_team_statistics_on_target = away_team_statistics_on_target;
+    public void setAway_team_statistics_on_target_228(String away_team_statistics_on_target_228) {
+        this.away_team_statistics_on_target_228 = away_team_statistics_on_target_228;
     }
 
-    public String getAway_team_statistics_off_target() {
-        return away_team_statistics_off_target;
+    public String getAway_team_statistics_off_target_229() {
+        return away_team_statistics_off_target_229;
     }
 
-    public void setAway_team_statistics_off_target(String away_team_statistics_off_target) {
-        this.away_team_statistics_off_target = away_team_statistics_off_target;
+    public void setAway_team_statistics_off_target_229(String away_team_statistics_off_target_229) {
+        this.away_team_statistics_off_target_229 = away_team_statistics_off_target_229;
     }
 
-    public String getAway_team_statistics_blocked() {
-        return away_team_statistics_blocked;
+    public String getAway_team_statistics_blocked_230() {
+        return away_team_statistics_blocked_230;
     }
 
-    public void setAway_team_statistics_blocked(String away_team_statistics_blocked) {
-        this.away_team_statistics_blocked = away_team_statistics_blocked;
+    public void setAway_team_statistics_blocked_230(String away_team_statistics_blocked_230) {
+        this.away_team_statistics_blocked_230 = away_team_statistics_blocked_230;
     }
 
-    public String getAway_team_statistics_woodwork() {
-        return away_team_statistics_woodwork;
+    public String getAway_team_statistics_woodwork_231() {
+        return away_team_statistics_woodwork_231;
     }
 
-    public void setAway_team_statistics_woodwork(String away_team_statistics_woodwork) {
-        this.away_team_statistics_woodwork = away_team_statistics_woodwork;
+    public void setAway_team_statistics_woodwork_231(String away_team_statistics_woodwork_231) {
+        this.away_team_statistics_woodwork_231 = away_team_statistics_woodwork_231;
     }
 
-    public String getAway_team_statistics_corners() {
-        return away_team_statistics_corners;
+    public String getAway_team_statistics_corners_232() {
+        return away_team_statistics_corners_232;
     }
 
-    public void setAway_team_statistics_corners(String away_team_statistics_corners) {
-        this.away_team_statistics_corners = away_team_statistics_corners;
+    public void setAway_team_statistics_corners_232(String away_team_statistics_corners_232) {
+        this.away_team_statistics_corners_232 = away_team_statistics_corners_232;
     }
 
-    public String getAway_team_statistics_offsides() {
-        return away_team_statistics_offsides;
+    public String getAway_team_statistics_offsides_233() {
+        return away_team_statistics_offsides_233;
     }
 
-    public void setAway_team_statistics_offsides(String away_team_statistics_offsides) {
-        this.away_team_statistics_offsides = away_team_statistics_offsides;
+    public void setAway_team_statistics_offsides_233(String away_team_statistics_offsides_233) {
+        this.away_team_statistics_offsides_233 = away_team_statistics_offsides_233;
     }
 
-    public String getAway_team_statistics_ball_possession() {
-        return away_team_statistics_ball_possession;
+    public String getAway_team_statistics_ball_possession_234() {
+        return away_team_statistics_ball_possession_234;
     }
 
-    public void setAway_team_statistics_ball_possession(String away_team_statistics_ball_possession) {
-        this.away_team_statistics_ball_possession = away_team_statistics_ball_possession;
+    public void setAway_team_statistics_ball_possession_234(String away_team_statistics_ball_possession_234) {
+        this.away_team_statistics_ball_possession_234 = away_team_statistics_ball_possession_234;
     }
 
-    public String getAway_team_statistics_pass_accuracy() {
-        return away_team_statistics_pass_accuracy;
+    public String getAway_team_statistics_pass_accuracy_235() {
+        return away_team_statistics_pass_accuracy_235;
     }
 
-    public void setAway_team_statistics_pass_accuracy(String away_team_statistics_pass_accuracy) {
-        this.away_team_statistics_pass_accuracy = away_team_statistics_pass_accuracy;
+    public void setAway_team_statistics_pass_accuracy_235(String away_team_statistics_pass_accuracy_235) {
+        this.away_team_statistics_pass_accuracy_235 = away_team_statistics_pass_accuracy_235;
     }
 
-    public String getAway_team_statistics_num_passes() {
-        return away_team_statistics_num_passes;
+    public String getAway_team_statistics_num_passes_236() {
+        return away_team_statistics_num_passes_236;
     }
 
-    public void setAway_team_statistics_num_passes(String away_team_statistics_num_passes) {
-        this.away_team_statistics_num_passes = away_team_statistics_num_passes;
+    public void setAway_team_statistics_num_passes_236(String away_team_statistics_num_passes_236) {
+        this.away_team_statistics_num_passes_236 = away_team_statistics_num_passes_236;
     }
 
-    public String getAway_team_statistics_passes_completed() {
-        return away_team_statistics_passes_completed;
+    public String getAway_team_statistics_passes_completed_237() {
+        return away_team_statistics_passes_completed_237;
     }
 
-    public void setAway_team_statistics_passes_completed(String away_team_statistics_passes_completed) {
-        this.away_team_statistics_passes_completed = away_team_statistics_passes_completed;
+    public void setAway_team_statistics_passes_completed_237(String away_team_statistics_passes_completed_237) {
+        this.away_team_statistics_passes_completed_237 = away_team_statistics_passes_completed_237;
     }
 
-    public String getAway_team_statistics_distance_covered() {
-        return away_team_statistics_distance_covered;
+    public String getAway_team_statistics_distance_covered_238() {
+        return away_team_statistics_distance_covered_238;
     }
 
-    public void setAway_team_statistics_distance_covered(String away_team_statistics_distance_covered) {
-        this.away_team_statistics_distance_covered = away_team_statistics_distance_covered;
+    public void setAway_team_statistics_distance_covered_238(String away_team_statistics_distance_covered_238) {
+        this.away_team_statistics_distance_covered_238 = away_team_statistics_distance_covered_238;
     }
 
-    public String getAway_team_statistics_balls_recovered() {
-        return away_team_statistics_balls_recovered;
+    public String getAway_team_statistics_balls_recovered_239() {
+        return away_team_statistics_balls_recovered_239;
     }
 
-    public void setAway_team_statistics_balls_recovered(String away_team_statistics_balls_recovered) {
-        this.away_team_statistics_balls_recovered = away_team_statistics_balls_recovered;
+    public void setAway_team_statistics_balls_recovered_239(String away_team_statistics_balls_recovered_239) {
+        this.away_team_statistics_balls_recovered_239 = away_team_statistics_balls_recovered_239;
     }
 
-    public String getAway_team_statistics_tackles() {
-        return away_team_statistics_tackles;
+    public String getAway_team_statistics_tackles_240() {
+        return away_team_statistics_tackles_240;
     }
 
-    public void setAway_team_statistics_tackles(String away_team_statistics_tackles) {
-        this.away_team_statistics_tackles = away_team_statistics_tackles;
+    public void setAway_team_statistics_tackles_240(String away_team_statistics_tackles_240) {
+        this.away_team_statistics_tackles_240 = away_team_statistics_tackles_240;
     }
 
-    public String getAway_team_statistics_clearances() {
-        return away_team_statistics_clearances;
+    public String getAway_team_statistics_clearances_241() {
+        return away_team_statistics_clearances_241;
     }
 
-    public void setAway_team_statistics_clearances(String away_team_statistics_clearances) {
-        this.away_team_statistics_clearances = away_team_statistics_clearances;
+    public void setAway_team_statistics_clearances_241(String away_team_statistics_clearances_241) {
+        this.away_team_statistics_clearances_241 = away_team_statistics_clearances_241;
     }
 
-    public String getAway_team_statistics_yellow_cards() {
-        return away_team_statistics_yellow_cards;
+    public String getAway_team_statistics_yellow_cards_242() {
+        return away_team_statistics_yellow_cards_242;
     }
 
-    public void setAway_team_statistics_yellow_cards(String away_team_statistics_yellow_cards) {
-        this.away_team_statistics_yellow_cards = away_team_statistics_yellow_cards;
+    public void setAway_team_statistics_yellow_cards_242(String away_team_statistics_yellow_cards_242) {
+        this.away_team_statistics_yellow_cards_242 = away_team_statistics_yellow_cards_242;
     }
 
-    public String getAway_team_statistics_red_cards() {
-        return away_team_statistics_red_cards;
+    public String getAway_team_statistics_red_cards_243() {
+        return away_team_statistics_red_cards_243;
     }
 
-    public void setAway_team_statistics_red_cards(String away_team_statistics_red_cards) {
-        this.away_team_statistics_red_cards = away_team_statistics_red_cards;
+    public void setAway_team_statistics_red_cards_243(String away_team_statistics_red_cards_243) {
+        this.away_team_statistics_red_cards_243 = away_team_statistics_red_cards_243;
     }
 
-    public String getAway_team_statistics_fouls_committed() {
-        return away_team_statistics_fouls_committed;
+    public String getAway_team_statistics_fouls_committed_244() {
+        return away_team_statistics_fouls_committed_244;
     }
 
-    public void setAway_team_statistics_fouls_committed(String away_team_statistics_fouls_committed) {
-        this.away_team_statistics_fouls_committed = away_team_statistics_fouls_committed;
+    public void setAway_team_statistics_fouls_committed_244(String away_team_statistics_fouls_committed_244) {
+        this.away_team_statistics_fouls_committed_244 = away_team_statistics_fouls_committed_244;
     }
 
-    public String getAway_team_statistics_tactics() {
-        return away_team_statistics_tactics;
+    public String getAway_team_statistics_tactics_245() {
+        return away_team_statistics_tactics_245;
     }
 
-    public void setAway_team_statistics_tactics(String away_team_statistics_tactics) {
-        this.away_team_statistics_tactics = away_team_statistics_tactics;
+    public void setAway_team_statistics_tactics_245(String away_team_statistics_tactics_245) {
+        this.away_team_statistics_tactics_245 = away_team_statistics_tactics_245;
     }
 
     public String getAway_team_events_8_type_of_event() {
