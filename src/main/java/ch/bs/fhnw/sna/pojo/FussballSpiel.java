@@ -249,12 +249,12 @@ public class FussballSpiel {
     private String away_team_statistics_red_cards_243;
     private String away_team_statistics_fouls_committed_244;
     private String away_team_statistics_tactics_245;
-    // private String   away_team_statistics_starting_eleven_0_name;
-    // private String   away_team_statistics_starting_eleven_0_captain;
-    // private String   away_team_statistics_starting_eleven_0_shirt_number;
-    // private String   away_team_statistics_starting_eleven_0_position;
-    // private String   away_team_statistics_starting_eleven_1_name;
-    // private String   away_team_statistics_starting_eleven_1_captain;
+    // private String   away_team_statistics_starting_eleven_0_name; 246
+    // private String   away_team_statistics_starting_eleven_0_captain; 247
+    // private String   away_team_statistics_starting_eleven_0_shirt_number; 248
+    // private String   away_team_statistics_starting_eleven_0_position; 249
+    // private String   away_team_statistics_starting_eleven_1_name; 250
+    // private String   away_team_statistics_starting_eleven_1_captain; 251
     // private String   away_team_statistics_starting_eleven_1_shirt_number;
     // private String   away_team_statistics_starting_eleven_1_position;
     // private String   away_team_statistics_starting_eleven_2_name;
@@ -263,8 +263,8 @@ public class FussballSpiel {
     // private String   away_team_statistics_starting_eleven_2_position;
     // private String   away_team_statistics_starting_eleven_3_name;
     // private String   away_team_statistics_starting_eleven_3_captain;
-    // private String   away_team_statistics_starting_eleven_3_shirt_number;
-    // private String   away_team_statistics_starting_eleven_3_position;
+    // private String   away_team_statistics_starting_eleven_3_shirt_number; 260
+    // private String   away_team_statistics_starting_eleven_3_position; 261
     // private String   away_team_statistics_starting_eleven_4_name;
     // private String   away_team_statistics_starting_eleven_4_captain;
     // private String   away_team_statistics_starting_eleven_4_shirt_number;
@@ -273,7 +273,7 @@ public class FussballSpiel {
     // private String   away_team_statistics_starting_eleven_5_captain;
     // private String   away_team_statistics_starting_eleven_5_shirt_number;
     // private String   away_team_statistics_starting_eleven_5_position;
-    // private String   away_team_statistics_starting_eleven_6_name;
+    // private String   away_team_statistics_starting_eleven_6_name;270
     // private String   away_team_statistics_starting_eleven_6_captain;
     // private String   away_team_statistics_starting_eleven_6_shirt_number;
     // private String   away_team_statistics_starting_eleven_6_position;
@@ -283,7 +283,7 @@ public class FussballSpiel {
     // private String   away_team_statistics_starting_eleven_7_position;
     // private String   away_team_statistics_starting_eleven_8_name;
     // private String   away_team_statistics_starting_eleven_8_captain;
-    // private String   away_team_statistics_starting_eleven_8_shirt_number;
+    // private String   away_team_statistics_starting_eleven_8_shirt_number; 280
     // private String   away_team_statistics_starting_eleven_8_position;
     // private String   away_team_statistics_starting_eleven_9_name;
     // private String   away_team_statistics_starting_eleven_9_captain;
@@ -293,7 +293,7 @@ public class FussballSpiel {
     // private String   away_team_statistics_starting_eleven_10_captain;
     // private String   away_team_statistics_starting_eleven_10_shirt_number;
     // private String   away_team_statistics_starting_eleven_10_position;
-    // private String   away_team_statistics_substitutes_0_name;
+    // private String   away_team_statistics_substitutes_0_name; 290
     // private String   away_team_statistics_substitutes_0_captain;
     // private String   away_team_statistics_substitutes_0_shirt_number;
     // private String   away_team_statistics_substitutes_0_position;
@@ -303,7 +303,7 @@ public class FussballSpiel {
     // private String   away_team_statistics_substitutes_1_position;
     // private String   away_team_statistics_substitutes_2_name;
     // private String   away_team_statistics_substitutes_2_captain;
-    // private String   away_team_statistics_substitutes_2_shirt_number;
+    // private String   away_team_statistics_substitutes_2_shirt_number; 300
     // private String   away_team_statistics_substitutes_2_position;
     // private String   away_team_statistics_substitutes_3_name;
     // private String   away_team_statistics_substitutes_3_captain;
@@ -313,7 +313,7 @@ public class FussballSpiel {
     // private String   away_team_statistics_substitutes_4_captain;
     // private String   away_team_statistics_substitutes_4_shirt_number;
     // private String   away_team_statistics_substitutes_4_position;
-    // private String   away_team_statistics_substitutes_5_name;
+    // private String   away_team_statistics_substitutes_5_name;310
     // private String   away_team_statistics_substitutes_5_captain;
     // private String   away_team_statistics_substitutes_5_shirt_number;
     // private String   away_team_statistics_substitutes_5_position;
@@ -323,7 +323,7 @@ public class FussballSpiel {
     // private String   away_team_statistics_substitutes_6_position;
     // private String   away_team_statistics_substitutes_7_name;
     // private String   away_team_statistics_substitutes_7_captain;
-    // private String   away_team_statistics_substitutes_7_shirt_number;
+    // private String   away_team_statistics_substitutes_7_shirt_number; 320
     // private String   away_team_statistics_substitutes_7_position;
     // private String   away_team_statistics_substitutes_8_name;
     // private String   away_team_statistics_substitutes_8_captain;
@@ -333,7 +333,7 @@ public class FussballSpiel {
     // private String   away_team_statistics_substitutes_9_captain;
     // private String   away_team_statistics_substitutes_9_shirt_number;
     // private String   away_team_statistics_substitutes_9_position;
-    // private String   away_team_statistics_substitutes_10_name;
+    // private String   away_team_statistics_substitutes_10_name;330
     // private String   away_team_statistics_substitutes_10_captain;
     // private String   away_team_statistics_substitutes_10_shirt_number;
     // private String   away_team_statistics_substitutes_10_position;
@@ -343,49 +343,49 @@ public class FussballSpiel {
     // private String   away_team_statistics_substitutes_11_position;
     // private String   last_event_update_at;
     // private String   last_score_update_at;
-    //private String   away_team_events_8_id;
-    private String away_team_events_8_type_of_event;
-    private String away_team_events_8_player;
+    //private String   away_team_events_8_id;340
+    private String away_team_events_8_type_of_event_341;
+    private String away_team_events_8_player_342;
     // private String   away_team_events_8_time;
     // private String   away_team_events_9_id;
-    private String away_team_events_9_type_of_event;
-    private String away_team_events_9_player;
+    private String away_team_events_9_type_of_event_345;
+    private String away_team_events_9_player_346;
     // private String   away_team_events_9_time;
     // private String   away_team_events_10_id;
-    private String away_team_events_10_type_of_event;
-    private String away_team_events_10_player;
+    private String away_team_events_10_type_of_event_349;
+    private String away_team_events_10_player_350;
     // private String   away_team_events_10_time;
     // private String   away_team_events_11_id;
-    private String away_team_events_11_type_of_event;
-    private String away_team_events_11_player;
+    private String away_team_events_11_type_of_event_353;
+    private String away_team_events_11_player_354;
     // private String   away_team_events_11_time;
     // private String   away_team_events_12_id;
-    private String away_team_events_12_type_of_event;
-    private String away_team_events_12_player;
+    private String away_team_events_12_type_of_event_357;
+    private String away_team_events_12_player_358;
     // private String   away_team_events_12_time;
     // private String   away_team_events_13_id;
-    private String away_team_events_13_type_of_event;
-    private String away_team_events_13_player;
+    private String away_team_events_13_type_of_event_361;
+    private String away_team_events_13_player_362;
     // private String   away_team_events_13_time;
     // private String   away_team_events_14_id;
-    private String away_team_events_14_type_of_event;
-    private String away_team_events_14_player;
+    private String away_team_events_14_type_of_event_365;
+    private String away_team_events_14_player_366;
     // private String   away_team_events_14_time;
     // private String   home_team_events_12_id;
-    private String home_team_events_12_type_of_event;
-    private String home_team_events_12_player;
+    private String home_team_events_12_type_of_event_369;
+    private String home_team_events_12_player_370;
     // private String   home_team_events_12_time;
     // private String   away_team_events_15_id;
-    private String away_team_events_15_type_of_event;
-    private String away_team_events_15_player;
+    private String away_team_events_15_type_of_event_373;
+    private String away_team_events_15_player_374;
     // private String   away_team_events_15_time;
     // private String   home_team_events_13_id;
-    private String home_team_events_13_type_of_event;
-    private String home_team_events_13_player;
+    private String home_team_events_13_type_of_event_377;
+    private String home_team_events_13_player_378;
     // private String   home_team_events_13_time;
     // private String   home_team_events_14_id;
-    private String home_team_events_14_type_of_event;
-    private String home_team_events_14_player;
+    private String home_team_events_14_type_of_event_381;
+    private String home_team_events_14_player_382;
     // private String   home_team_events_14_time;
 
     public String getVenue_0() {
@@ -1164,179 +1164,179 @@ public class FussballSpiel {
         this.away_team_statistics_tactics_245 = away_team_statistics_tactics_245;
     }
 
-    public String getAway_team_events_8_type_of_event() {
-        return away_team_events_8_type_of_event;
+    public String getAway_team_events_8_type_of_event_341() {
+        return away_team_events_8_type_of_event_341;
     }
 
-    public void setAway_team_events_8_type_of_event(String away_team_events_8_type_of_event) {
-        this.away_team_events_8_type_of_event = away_team_events_8_type_of_event;
+    public void setAway_team_events_8_type_of_event_341(String away_team_events_8_type_of_event_341) {
+        this.away_team_events_8_type_of_event_341 = away_team_events_8_type_of_event_341;
     }
 
-    public String getAway_team_events_8_player() {
-        return away_team_events_8_player;
+    public String getAway_team_events_8_player_342() {
+        return away_team_events_8_player_342;
     }
 
-    public void setAway_team_events_8_player(String away_team_events_8_player) {
-        this.away_team_events_8_player = away_team_events_8_player;
+    public void setAway_team_events_8_player_342(String away_team_events_8_player_342) {
+        this.away_team_events_8_player_342 = away_team_events_8_player_342;
     }
 
-    public String getAway_team_events_9_type_of_event() {
-        return away_team_events_9_type_of_event;
+    public String getAway_team_events_9_type_of_event_345() {
+        return away_team_events_9_type_of_event_345;
     }
 
-    public void setAway_team_events_9_type_of_event(String away_team_events_9_type_of_event) {
-        this.away_team_events_9_type_of_event = away_team_events_9_type_of_event;
+    public void setAway_team_events_9_type_of_event_345(String away_team_events_9_type_of_event_345) {
+        this.away_team_events_9_type_of_event_345 = away_team_events_9_type_of_event_345;
     }
 
-    public String getAway_team_events_9_player() {
-        return away_team_events_9_player;
+    public String getAway_team_events_9_player_346() {
+        return away_team_events_9_player_346;
     }
 
-    public void setAway_team_events_9_player(String away_team_events_9_player) {
-        this.away_team_events_9_player = away_team_events_9_player;
+    public void setAway_team_events_9_player_346(String away_team_events_9_player_346) {
+        this.away_team_events_9_player_346 = away_team_events_9_player_346;
     }
 
-    public String getAway_team_events_10_type_of_event() {
-        return away_team_events_10_type_of_event;
+    public String getAway_team_events_10_type_of_event_349() {
+        return away_team_events_10_type_of_event_349;
     }
 
-    public void setAway_team_events_10_type_of_event(String away_team_events_10_type_of_event) {
-        this.away_team_events_10_type_of_event = away_team_events_10_type_of_event;
+    public void setAway_team_events_10_type_of_event_349(String away_team_events_10_type_of_event_349) {
+        this.away_team_events_10_type_of_event_349 = away_team_events_10_type_of_event_349;
     }
 
-    public String getAway_team_events_10_player() {
-        return away_team_events_10_player;
+    public String getAway_team_events_10_player_350() {
+        return away_team_events_10_player_350;
     }
 
-    public void setAway_team_events_10_player(String away_team_events_10_player) {
-        this.away_team_events_10_player = away_team_events_10_player;
+    public void setAway_team_events_10_player_350(String away_team_events_10_player_350) {
+        this.away_team_events_10_player_350 = away_team_events_10_player_350;
     }
 
-    public String getAway_team_events_11_type_of_event() {
-        return away_team_events_11_type_of_event;
+    public String getAway_team_events_11_type_of_event_353() {
+        return away_team_events_11_type_of_event_353;
     }
 
-    public void setAway_team_events_11_type_of_event(String away_team_events_11_type_of_event) {
-        this.away_team_events_11_type_of_event = away_team_events_11_type_of_event;
+    public void setAway_team_events_11_type_of_event_353(String away_team_events_11_type_of_event_353) {
+        this.away_team_events_11_type_of_event_353 = away_team_events_11_type_of_event_353;
     }
 
-    public String getAway_team_events_11_player() {
-        return away_team_events_11_player;
+    public String getAway_team_events_11_player_354() {
+        return away_team_events_11_player_354;
     }
 
-    public void setAway_team_events_11_player(String away_team_events_11_player) {
-        this.away_team_events_11_player = away_team_events_11_player;
+    public void setAway_team_events_11_player_354(String away_team_events_11_player_354) {
+        this.away_team_events_11_player_354 = away_team_events_11_player_354;
     }
 
-    public String getAway_team_events_12_type_of_event() {
-        return away_team_events_12_type_of_event;
+    public String getAway_team_events_12_type_of_event_357() {
+        return away_team_events_12_type_of_event_357;
     }
 
-    public void setAway_team_events_12_type_of_event(String away_team_events_12_type_of_event) {
-        this.away_team_events_12_type_of_event = away_team_events_12_type_of_event;
+    public void setAway_team_events_12_type_of_event_357(String away_team_events_12_type_of_event_357) {
+        this.away_team_events_12_type_of_event_357 = away_team_events_12_type_of_event_357;
     }
 
-    public String getAway_team_events_12_player() {
-        return away_team_events_12_player;
+    public String getAway_team_events_12_player_358() {
+        return away_team_events_12_player_358;
     }
 
-    public void setAway_team_events_12_player(String away_team_events_12_player) {
-        this.away_team_events_12_player = away_team_events_12_player;
+    public void setAway_team_events_12_player_358(String away_team_events_12_player_358) {
+        this.away_team_events_12_player_358 = away_team_events_12_player_358;
     }
 
-    public String getAway_team_events_13_type_of_event() {
-        return away_team_events_13_type_of_event;
+    public String getAway_team_events_13_type_of_event_361() {
+        return away_team_events_13_type_of_event_361;
     }
 
-    public void setAway_team_events_13_type_of_event(String away_team_events_13_type_of_event) {
-        this.away_team_events_13_type_of_event = away_team_events_13_type_of_event;
+    public void setAway_team_events_13_type_of_event_361(String away_team_events_13_type_of_event_361) {
+        this.away_team_events_13_type_of_event_361 = away_team_events_13_type_of_event_361;
     }
 
-    public String getAway_team_events_13_player() {
-        return away_team_events_13_player;
+    public String getAway_team_events_13_player_362() {
+        return away_team_events_13_player_362;
     }
 
-    public void setAway_team_events_13_player(String away_team_events_13_player) {
-        this.away_team_events_13_player = away_team_events_13_player;
+    public void setAway_team_events_13_player_362(String away_team_events_13_player_362) {
+        this.away_team_events_13_player_362 = away_team_events_13_player_362;
     }
 
-    public String getAway_team_events_14_type_of_event() {
-        return away_team_events_14_type_of_event;
+    public String getAway_team_events_14_type_of_event_365() {
+        return away_team_events_14_type_of_event_365;
     }
 
-    public void setAway_team_events_14_type_of_event(String away_team_events_14_type_of_event) {
-        this.away_team_events_14_type_of_event = away_team_events_14_type_of_event;
+    public void setAway_team_events_14_type_of_event_365(String away_team_events_14_type_of_event_365) {
+        this.away_team_events_14_type_of_event_365 = away_team_events_14_type_of_event_365;
     }
 
-    public String getAway_team_events_14_player() {
-        return away_team_events_14_player;
+    public String getAway_team_events_14_player_366() {
+        return away_team_events_14_player_366;
     }
 
-    public void setAway_team_events_14_player(String away_team_events_14_player) {
-        this.away_team_events_14_player = away_team_events_14_player;
+    public void setAway_team_events_14_player_366(String away_team_events_14_player_366) {
+        this.away_team_events_14_player_366 = away_team_events_14_player_366;
     }
 
-    public String getHome_team_events_12_type_of_event() {
-        return home_team_events_12_type_of_event;
+    public String getHome_team_events_12_type_of_event_369() {
+        return home_team_events_12_type_of_event_369;
     }
 
-    public void setHome_team_events_12_type_of_event(String home_team_events_12_type_of_event) {
-        this.home_team_events_12_type_of_event = home_team_events_12_type_of_event;
+    public void setHome_team_events_12_type_of_event_369(String home_team_events_12_type_of_event_369) {
+        this.home_team_events_12_type_of_event_369 = home_team_events_12_type_of_event_369;
     }
 
-    public String getHome_team_events_12_player() {
-        return home_team_events_12_player;
+    public String getHome_team_events_12_player_370() {
+        return home_team_events_12_player_370;
     }
 
-    public void setHome_team_events_12_player(String home_team_events_12_player) {
-        this.home_team_events_12_player = home_team_events_12_player;
+    public void setHome_team_events_12_player_370(String home_team_events_12_player_370) {
+        this.home_team_events_12_player_370 = home_team_events_12_player_370;
     }
 
-    public String getAway_team_events_15_type_of_event() {
-        return away_team_events_15_type_of_event;
+    public String getAway_team_events_15_type_of_event_373() {
+        return away_team_events_15_type_of_event_373;
     }
 
-    public void setAway_team_events_15_type_of_event(String away_team_events_15_type_of_event) {
-        this.away_team_events_15_type_of_event = away_team_events_15_type_of_event;
+    public void setAway_team_events_15_type_of_event_373(String away_team_events_15_type_of_event_373) {
+        this.away_team_events_15_type_of_event_373 = away_team_events_15_type_of_event_373;
     }
 
-    public String getAway_team_events_15_player() {
-        return away_team_events_15_player;
+    public String getAway_team_events_15_player_374() {
+        return away_team_events_15_player_374;
     }
 
-    public void setAway_team_events_15_player(String away_team_events_15_player) {
-        this.away_team_events_15_player = away_team_events_15_player;
+    public void setAway_team_events_15_player_374(String away_team_events_15_player_374) {
+        this.away_team_events_15_player_374 = away_team_events_15_player_374;
     }
 
-    public String getHome_team_events_13_type_of_event() {
-        return home_team_events_13_type_of_event;
+    public String getHome_team_events_13_type_of_event_377() {
+        return home_team_events_13_type_of_event_377;
     }
 
-    public void setHome_team_events_13_type_of_event(String home_team_events_13_type_of_event) {
-        this.home_team_events_13_type_of_event = home_team_events_13_type_of_event;
+    public void setHome_team_events_13_type_of_event_377(String home_team_events_13_type_of_event_377) {
+        this.home_team_events_13_type_of_event_377 = home_team_events_13_type_of_event_377;
     }
 
-    public String getHome_team_events_13_player() {
-        return home_team_events_13_player;
+    public String getHome_team_events_13_player_378() {
+        return home_team_events_13_player_378;
     }
 
-    public void setHome_team_events_13_player(String home_team_events_13_player) {
-        this.home_team_events_13_player = home_team_events_13_player;
+    public void setHome_team_events_13_player_378(String home_team_events_13_player_378) {
+        this.home_team_events_13_player_378 = home_team_events_13_player_378;
     }
 
-    public String getHome_team_events_14_type_of_event() {
-        return home_team_events_14_type_of_event;
+    public String getHome_team_events_14_type_of_event_381() {
+        return home_team_events_14_type_of_event_381;
     }
 
-    public void setHome_team_events_14_type_of_event(String home_team_events_14_type_of_event) {
-        this.home_team_events_14_type_of_event = home_team_events_14_type_of_event;
+    public void setHome_team_events_14_type_of_event_381(String home_team_events_14_type_of_event_381) {
+        this.home_team_events_14_type_of_event_381 = home_team_events_14_type_of_event_381;
     }
 
-    public String getHome_team_events_14_player() {
-        return home_team_events_14_player;
+    public String getHome_team_events_14_player_382() {
+        return home_team_events_14_player_382;
     }
 
-    public void setHome_team_events_14_player(String home_team_events_14_player) {
-        this.home_team_events_14_player = home_team_events_14_player;
+    public void setHome_team_events_14_player_382(String home_team_events_14_player_382) {
+        this.home_team_events_14_player_382 = home_team_events_14_player_382;
     }
 }
