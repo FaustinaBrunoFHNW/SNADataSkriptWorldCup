@@ -129,8 +129,21 @@ public class Reader {
         fussballSpiel.setHome_team_statistics_blocked_118(spielAttribute[118]);
         fussballSpiel.setHome_team_statistics_woodwork_119(spielAttribute[119]);
         fussballSpiel.setHome_team_statistics_corners_120(spielAttribute[120]);
+        fussballSpiel.setHome_team_statistics_offsides_121(spielAttribute[121]);
 
-        //TODO alle Attr
+
+        fussballSpiel.setHome_team_statistics_ball_possession_122(spielAttribute[122]);
+        fussballSpiel.setHome_team_statistics_pass_accuracy_123(spielAttribute[123]);
+        fussballSpiel.setHome_team_statistics_num_passes_124(spielAttribute[124]);
+        fussballSpiel.setHome_team_statistics_passes_completed_125(spielAttribute[125]);
+        fussballSpiel.setHome_team_statistics_distance_covered_126(spielAttribute[126]);
+        fussballSpiel.setHome_team_statistics_balls_recovered_127(spielAttribute[127]);
+        fussballSpiel.setHome_team_statistics_tackles_128(spielAttribute[128]);
+        fussballSpiel.setHome_team_statistics_clearances_129(spielAttribute[129]);
+        fussballSpiel.setHome_team_statistics_yellow_cards_130(spielAttribute[130]);
+        fussballSpiel.setHome_team_statistics_red_cards_131(spielAttribute[131]);
+        fussballSpiel.setHome_team_statistics_fouls_committed_132(spielAttribute[132]);
+        fussballSpiel.setHome_team_statistics_tactics_133(spielAttribute[133]);
         fussballSpiel.setAway_team_statistics_country_226(spielAttribute[226]);
         fussballSpiel.setAway_team_statistics_attempts_on_goal_227(spielAttribute[227]);
         fussballSpiel.setAway_team_statistics_on_target_228(spielAttribute[228]);
@@ -142,6 +155,8 @@ public class Reader {
         fussballSpiel.setAway_team_statistics_ball_possession_234(spielAttribute[234]);
         fussballSpiel.setAway_team_statistics_pass_accuracy_235(spielAttribute[235]);
         fussballSpiel.setAway_team_statistics_num_passes_236(spielAttribute[236]);
+
+        //TODO Alle attr
 
         return fussballSpiel;
 
