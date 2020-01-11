@@ -190,7 +190,7 @@ public class Reader {
     //TODO in File schreiben
     public void statistikFileSchreiben(List<FussballSpiel> fussballSpiele) throws IOException {
 
-        FileWriter fw = new FileWriter("newDataSetSpielEreignisse.csv");
+        FileWriter fw = new FileWriter("src/main/resources/newDatasets/newDataSetSpielEreignisse.csv");
         BufferedWriter bw = new BufferedWriter(fw);
 
         String header = "Location," + "Status," + "Time," + "ID," + "TempCelsius," + "Description," + "Attendence,"
