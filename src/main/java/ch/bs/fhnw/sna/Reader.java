@@ -131,7 +131,6 @@ public class Reader {
         fussballSpiel.setHome_team_statistics_corners_120(spielAttribute[120]);
         fussballSpiel.setHome_team_statistics_offsides_121(spielAttribute[121]);
 
-
         fussballSpiel.setHome_team_statistics_ball_possession_122(spielAttribute[122]);
         fussballSpiel.setHome_team_statistics_pass_accuracy_123(spielAttribute[123]);
         fussballSpiel.setHome_team_statistics_num_passes_124(spielAttribute[124]);
@@ -155,8 +154,38 @@ public class Reader {
         fussballSpiel.setAway_team_statistics_ball_possession_234(spielAttribute[234]);
         fussballSpiel.setAway_team_statistics_pass_accuracy_235(spielAttribute[235]);
         fussballSpiel.setAway_team_statistics_num_passes_236(spielAttribute[236]);
+        fussballSpiel.setAway_team_statistics_passes_completed_237(spielAttribute[237]);
+        fussballSpiel.setAway_team_statistics_distance_covered_238(spielAttribute[238]);
+        fussballSpiel.setAway_team_statistics_balls_recovered_239(spielAttribute[239]);
+        fussballSpiel.setAway_team_statistics_tackles_240(spielAttribute[240]);
+        fussballSpiel.setAway_team_statistics_clearances_241(spielAttribute[241]);
+        fussballSpiel.setAway_team_statistics_yellow_cards_242(spielAttribute[242]);
+        fussballSpiel.setAway_team_statistics_red_cards_243(spielAttribute[243]);
+        fussballSpiel.setAway_team_statistics_fouls_committed_244(spielAttribute[244]);
+        fussballSpiel.setAway_team_statistics_tactics_245(spielAttribute[245]);
+        fussballSpiel.setAway_team_events_8_type_of_event_341(spielAttribute[341]);
+        fussballSpiel.setAway_team_events_8_player_342(spielAttribute[342]);
+        fussballSpiel.setAway_team_events_9_type_of_event_345(spielAttribute[345]);
+        fussballSpiel.setAway_team_events_9_player_346(spielAttribute[346]);
+        fussballSpiel.setAway_team_events_10_type_of_event_349(spielAttribute[349]);
+        fussballSpiel.setAway_team_events_10_player_350(spielAttribute[350]);
+        fussballSpiel.setAway_team_events_11_type_of_event_353(spielAttribute[353]);
+        fussballSpiel.setAway_team_events_11_player_354(spielAttribute[354]);
+        fussballSpiel.setAway_team_events_12_type_of_event_357(spielAttribute[357]);
+        fussballSpiel.setAway_team_events_12_player_358(spielAttribute[358]);
+        fussballSpiel.setAway_team_events_13_type_of_event_361(spielAttribute[361]);
+        fussballSpiel.setAway_team_events_13_player_362(spielAttribute[362]);
+        fussballSpiel.setAway_team_events_14_type_of_event_365(spielAttribute[365]);
+        fussballSpiel.setAway_team_events_14_player_366(spielAttribute[366]);
+        fussballSpiel.setHome_team_events_12_type_of_event_369(spielAttribute[369]);
+        fussballSpiel.setHome_team_events_12_player_370(spielAttribute[370]);
+        fussballSpiel.setAway_team_events_15_type_of_event_373(spielAttribute[373]);
+        fussballSpiel.setAway_team_events_15_player_374(spielAttribute[374]);
+        fussballSpiel.setHome_team_events_13_type_of_event_377(spielAttribute[377]);
+        fussballSpiel.setHome_team_events_13_player_378(spielAttribute[378]);
+        fussballSpiel.setHome_team_events_14_type_of_event_381(spielAttribute[381]);
+        fussballSpiel.setHome_team_events_14_player_382(spielAttribute[382]);
 
-        //TODO Alle attr
 
         return fussballSpiel;
 
