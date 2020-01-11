@@ -2,10 +2,7 @@ package ch.bs.fhnw.sna;
 
 import ch.bs.fhnw.sna.pojo.FussballSpiel;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -16,7 +13,7 @@ public class Reader {
     private static final String PATHNAME_DATASET = "src/main/java/resources/rawDataset.csv";
 
     //TODO File einlesen
-    public void einlesen() {
+    public List<FussballSpiel> einlesen() {
         List<FussballSpiel> fussballSpiele = new ArrayList<>();
 
         int counter = 0;
@@ -60,9 +57,9 @@ public class Reader {
         }
         //System.out.println(counter);
         System.out.println(fussballSpiele.size());
+        return fussballSpiele;
     }
 
-    //TODO Alle Attr befüllen
     private FussballSpiel fussballspielbefüllen(String[] spielAttribute) {
         FussballSpiel fussballSpiel = new FussballSpiel();
         fussballSpiel.setVenue_0(spielAttribute[0]);
@@ -130,7 +127,6 @@ public class Reader {
         fussballSpiel.setHome_team_statistics_woodwork_119(spielAttribute[119]);
         fussballSpiel.setHome_team_statistics_corners_120(spielAttribute[120]);
         fussballSpiel.setHome_team_statistics_offsides_121(spielAttribute[121]);
-
         fussballSpiel.setHome_team_statistics_ball_possession_122(spielAttribute[122]);
         fussballSpiel.setHome_team_statistics_pass_accuracy_123(spielAttribute[123]);
         fussballSpiel.setHome_team_statistics_num_passes_124(spielAttribute[124]);
@@ -163,35 +159,96 @@ public class Reader {
         fussballSpiel.setAway_team_statistics_red_cards_243(spielAttribute[243]);
         fussballSpiel.setAway_team_statistics_fouls_committed_244(spielAttribute[244]);
         fussballSpiel.setAway_team_statistics_tactics_245(spielAttribute[245]);
-        fussballSpiel.setAway_team_events_8_type_of_event_341(spielAttribute[341]);
-        fussballSpiel.setAway_team_events_8_player_342(spielAttribute[342]);
-        fussballSpiel.setAway_team_events_9_type_of_event_345(spielAttribute[345]);
-        fussballSpiel.setAway_team_events_9_player_346(spielAttribute[346]);
-        fussballSpiel.setAway_team_events_10_type_of_event_349(spielAttribute[349]);
-        fussballSpiel.setAway_team_events_10_player_350(spielAttribute[350]);
-        fussballSpiel.setAway_team_events_11_type_of_event_353(spielAttribute[353]);
-        fussballSpiel.setAway_team_events_11_player_354(spielAttribute[354]);
-        fussballSpiel.setAway_team_events_12_type_of_event_357(spielAttribute[357]);
-        fussballSpiel.setAway_team_events_12_player_358(spielAttribute[358]);
-        fussballSpiel.setAway_team_events_13_type_of_event_361(spielAttribute[361]);
-        fussballSpiel.setAway_team_events_13_player_362(spielAttribute[362]);
-        fussballSpiel.setAway_team_events_14_type_of_event_365(spielAttribute[365]);
-        fussballSpiel.setAway_team_events_14_player_366(spielAttribute[366]);
-        fussballSpiel.setHome_team_events_12_type_of_event_369(spielAttribute[369]);
-        fussballSpiel.setHome_team_events_12_player_370(spielAttribute[370]);
-        fussballSpiel.setAway_team_events_15_type_of_event_373(spielAttribute[373]);
-        fussballSpiel.setAway_team_events_15_player_374(spielAttribute[374]);
-        fussballSpiel.setHome_team_events_13_type_of_event_377(spielAttribute[377]);
-        fussballSpiel.setHome_team_events_13_player_378(spielAttribute[378]);
-        fussballSpiel.setHome_team_events_14_type_of_event_381(spielAttribute[381]);
-        fussballSpiel.setHome_team_events_14_player_382(spielAttribute[382]);
+        /**        fussballSpiel.setAway_team_events_8_type_of_event_341(spielAttribute[341]);
+         fussballSpiel.setAway_team_events_8_player_342(spielAttribute[342]);
+         fussballSpiel.setAway_team_events_9_type_of_event_345(spielAttribute[345]);
+         fussballSpiel.setAway_team_events_9_player_346(spielAttribute[346]);
+         fussballSpiel.setAway_team_events_10_type_of_event_349(spielAttribute[349]);
+         fussballSpiel.setAway_team_events_10_player_350(spielAttribute[350]);
+         fussballSpiel.setAway_team_events_11_type_of_event_353(spielAttribute[353]);
+         fussballSpiel.setAway_team_events_11_player_354(spielAttribute[354]);
+         fussballSpiel.setAway_team_events_12_type_of_event_357(spielAttribute[357]);
+         fussballSpiel.setAway_team_events_12_player_358(spielAttribute[358]);
+         fussballSpiel.setAway_team_events_13_type_of_event_361(spielAttribute[361]);
+         fussballSpiel.setAway_team_events_13_player_362(spielAttribute[362]);
+         fussballSpiel.setAway_team_events_14_type_of_event_365(spielAttribute[365]);
+         fussballSpiel.setAway_team_events_14_player_366(spielAttribute[366]);
+         fussballSpiel.setHome_team_events_12_type_of_event_369(spielAttribute[369]);
+         fussballSpiel.setHome_team_events_12_player_370(spielAttribute[370]);
+         fussballSpiel.setAway_team_events_15_type_of_event_373(spielAttribute[373]);
+         fussballSpiel.setAway_team_events_15_player_374(spielAttribute[374]);
+         fussballSpiel.setHome_team_events_13_type_of_event_377(spielAttribute[377]);
+         fussballSpiel.setHome_team_events_13_player_378(spielAttribute[378]);
+         fussballSpiel.setHome_team_events_14_type_of_event_381(spielAttribute[381]);
+         fussballSpiel.setHome_team_events_14_player_382(spielAttribute[382]);
 
-
+         **/
         return fussballSpiel;
 
     }
 
     //TODO in File schreiben
-    public void statistikFileSchreiben() {
+    public void statistikFileSchreiben(List<FussballSpiel> fussballSpiele) throws IOException {
+
+        FileWriter fw = new FileWriter("newDataSetSpielEreignisse.csv");
+        BufferedWriter bw = new BufferedWriter(fw);
+
+        String header = "Location," + "Status," + "Time," + "ID," + "TempCelsius," + "Description," + "Attendence,"
+                + "StageName," + "Source," + "Target," + "DateTime," + "Winner," + "HomeTeamGoals,"
+                + "HomeTeamPenalties" + ",AwayTeamGoals," + "AwayTeamPenalties," + "HomeTeamEvents," + "AwayteamEvents";
+
+        bw.write(header);
+        bw.write("\n");
+
+        for (FussballSpiel fussballSpiel : fussballSpiele) {
+            String attribut1 = fussballSpiel.getVenue_0();
+
+            String attribut2 = fussballSpiel.getLocation_1();
+            String attribut3 = fussballSpiel.getStatus_2();
+            String attribut4 = fussballSpiel.getTime_3();
+            String attribut5 = fussballSpiel.getId_4();
+            String attribut6 = fussballSpiel.getTemp_celsius_6();
+            String attribut7 = fussballSpiel.getDescription_9();
+            String attribut8 = fussballSpiel.getAttendance_10();
+            String attribut9 = fussballSpiel.getStage_name_20();
+            String attribut10 = fussballSpiel.getSource_21();
+            String attribut11 = fussballSpiel.getTarget_22();
+            String attribut12 = fussballSpiel.getDatetime_23();
+            String attribut13 = fussballSpiel.getWinner_24();
+            String attribut14 = fussballSpiel.getHome_team_goals_28();
+            String attribut15 = fussballSpiel.getHome_team_penalties_29();
+            String attribut16 = fussballSpiel.getAway_team_goals_32();
+            String attribut17 = fussballSpiel.getAway_team_penalties_33();
+            String attribut18 = fussballSpiel.getHome_team_events_0_type_of_event_35() + " - " + fussballSpiel
+                    .getHome_team_events_1_type_of_event_39() + " - " + fussballSpiel
+                    .getHome_team_events_2_type_of_event_43() + " - " + fussballSpiel
+                    .getHome_team_events_3_type_of_event_47() + " - " + fussballSpiel
+                    .getHome_team_events_4_type_of_event_51() + " - " + fussballSpiel
+                    .getHome_team_events_5_type_of_event_55() + " - " + fussballSpiel
+                    .getHome_team_events_6_type_of_event_59() + " - " + fussballSpiel
+                    .getHome_team_events_7_type_of_event_63() + " - " + fussballSpiel
+                    .getHome_team_events_8_type_of_event_67() + " - " + fussballSpiel
+                    .getHome_team_events_9_type_of_event_71() + " - " + fussballSpiel
+                    .getHome_team_events_10_type_of_event_75() + " - " + fussballSpiel
+                    .getHome_team_events_11_type_of_event_79();
+            String attribut19 = fussballSpiel.getAway_team_events_0_type_of_event_83() + "," + fussballSpiel
+                    .getAway_team_events_1_type_of_event_87() + " - " + fussballSpiel
+                    .getAway_team_events_2_type_of_event_91() + " - " + fussballSpiel
+                    .getAway_team_events_3_type_of_event_95() + " - " + fussballSpiel
+                    .getAway_team_events_4_type_of_event_99() + " - " + fussballSpiel
+                    .getAway_team_events_5_type_of_event_103() + " - " + fussballSpiel
+                    .getAway_team_events_6_type_of_event_107() + " - " + fussballSpiel
+                    .getAway_team_events_7_type_of_event_111();
+
+            String zeile =
+                    attribut1 + "," + attribut2 + "," + attribut3 + "," + attribut4 + "," + attribut5 + "," + attribut6
+                            + "," + attribut7 + "," + attribut8 + "," + attribut9 + "," + attribut10 + "," + attribut11
+                            + "," + attribut12 + "," + attribut13 + "," + attribut14 + "," + attribut15 + ","
+                            + attribut16 + "," + attribut17 + "," + attribut18 + "," + attribut19;
+            bw.write(zeile);
+            bw.write("\n");
+        }
+
+        bw.close();
     }
 }
