@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) throws IOException {
         Reader reader = new Reader();
 
-      List<FussballSpiel> fussballSpiele= reader.einlesen();
+        List<FussballSpiel> fussballSpiele = reader.einlesen();
         reader.statistikFileOffsideCornerDistamcePassesAttemptances(fussballSpiele);
 
     }
