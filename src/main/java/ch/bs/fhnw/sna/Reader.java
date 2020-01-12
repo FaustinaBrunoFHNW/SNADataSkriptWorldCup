@@ -439,32 +439,22 @@ public class Reader {
         bw.close();
     }
 
-
-    public void statistikFileOffsideCornerDistamcePassesAttemptances(List<FussballSpiel> fussballSpiele)
-            throws IOException {
-
+    public void statistikFileOffsideCornerDistamcePassesAttemptances(List<FussballSpiel> fussballSpiele) throws IOException {
         FileWriter fw = new FileWriter(
                 "src/main/resources/newDatasets/newDataSetSpielOffsideCornerDistamcePassesAttemptances.csv");
         BufferedWriter bw = new BufferedWriter(fw);
-
         String header = "Venue," + "ID," + "Source," + "Target," + "Winner," + "HomeTeamGoals," + "AwayTeamGoals,"
                 + "Temperatur," + "Attendance," + "OffidesHome," + "OffidesAway," + "CornersHome," + "CornersAway,"
                 + "NumPassesHome," + "NumPassesAway," + "DistanceCoveredHome," + "DistanceCoveredAway,"
                 + "AttemptsOnGoalHome," + "AttemptsOnGoalAway";
-
-        bw.write(header);
-        bw.write("\n");
-
+        bw.write(header); bw.write("\n");
         for (FussballSpiel fussballSpiel : fussballSpiele) {
-            String attribut1 = fussballSpiel.getVenue_0();
-            String attribut2 = fussballSpiel.getId_4();
-            String attribut3 = fussballSpiel.getSource_21();
-            String attribut4 = fussballSpiel.getTarget_22();
+            String attribut1 = fussballSpiel.getVenue_0();String attribut2 = fussballSpiel.getId_4();
+            String attribut3 = fussballSpiel.getSource_21();String attribut4 = fussballSpiel.getTarget_22();
             String attribut5 = fussballSpiel.getWinner_24();
             String attribut6 = fussballSpiel.getHome_team_goals_28();
             String attribut7 = fussballSpiel.getAway_team_goals_32();
-            String attribut8 = fussballSpiel.getTemp_celsius_6();
-            String attribut9 = fussballSpiel.getAttendance_10();
+            String attribut8 = fussballSpiel.getTemp_celsius_6();String attribut9 = fussballSpiel.getAttendance_10();
             String attribut10 = fussballSpiel.getHome_team_statistics_offsides_121();
             String attribut11 = fussballSpiel.getAway_team_statistics_offsides_233();
             String attribut12 = fussballSpiel.getHome_team_statistics_corners_120();
@@ -475,18 +465,11 @@ public class Reader {
             String attribut17 = fussballSpiel.getAway_team_statistics_distance_covered_238();
             String attribut18 = fussballSpiel.getHome_team_statistics_attempts_on_goal_115();
             String attribut19 = fussballSpiel.getAway_team_statistics_attempts_on_goal_227();
-
-            String zeile =
-                    attribut1 + "," + attribut2 + "," + attribut3 + "," + attribut4 + "," + attribut5 + "," + attribut6
+            String zeile = attribut1 + "," + attribut2 + "," + attribut3 + "," + attribut4 + "," + attribut5 + "," + attribut6
                             + "," + attribut7 + "," + attribut8 + "," + attribut9 + "," + attribut10 + "," + attribut11
                             + "," + attribut12 + "," + attribut13 + "," + attribut14 + "," + attribut15 + ","
                             + attribut16 + "," + attribut17 + "," + attribut18 + "," + attribut19;
-            bw.write(zeile);
-            bw.write("\n");
-        }
-        bw.close();
-    }
-
-
+            bw.write(zeile);bw.write("\n");
+        }bw.close(); }
 
 }
