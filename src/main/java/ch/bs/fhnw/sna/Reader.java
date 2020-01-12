@@ -187,27 +187,14 @@ public class Reader {
 
     }
 
-    public void statistikFileSchreiben(List<FussballSpiel> fussballSpiele) throws IOException {
+    public void statistikFileEvntsCountSchreiben1(List<FussballSpiel> fussballSpiele) throws IOException {
 
-        int goals_Home = 0;
-        int substitutionIn_Home = 0;
-        int substitutionOut_Home = 0;
-        int yellowCard_Home = 0;
-        int goalOwn_Home = 0;
-        int redCard_Home = 0;
-
-        int goals_Away = 0;
-        int substitutionIn_Away = 0;
-        int substitutionOut_Away = 0;
-        int yellowCard_Away = 0;
-        int goalOwn_Away = 0;
-        int redCard_Away = 0;
 
         FileWriter fw = new FileWriter("src/main/resources/newDatasets/newDataSetSpielEreignisseCounted.csv");
         BufferedWriter bw = new BufferedWriter(fw);
 
         String header = "Venue," + "ID," + "Source," + "Target," + "Winner," + "HomeTeamGoals," + "AwayTeamGoals,"
-                + "Attendance," + "GoalsHome," + "OwnGoalsHome," + "YellowCardHome" + "RedCardHome,"
+                + "Attendance," + "GoalsHome," + "OwnGoalsHome," + "YellowCardHome," + "RedCardHome,"
                 + "SubstitutionInHome," + "SubstitutionOutHome," + "GoalsAway," + "OwnGoalsAway," + "YellowCardAway,"
                 + "RedCardAway," + "SubstitutionInAway," + "SubstitutionOutAway";
 
@@ -228,6 +215,21 @@ public class Reader {
             homeEvents.add(fussballSpiel.getHome_team_events_9_type_of_event_71());
             homeEvents.add(fussballSpiel.getHome_team_events_10_type_of_event_75());
             homeEvents.add(fussballSpiel.getHome_team_events_11_type_of_event_79());
+
+            int goals_Home = 0;
+            int substitutionIn_Home = 0;
+            int substitutionOut_Home = 0;
+            int yellowCard_Home = 0;
+            int goalOwn_Home = 0;
+            int redCard_Home = 0;
+
+            int goals_Away = 0;
+            int substitutionIn_Away = 0;
+            int substitutionOut_Away = 0;
+            int yellowCard_Away = 0;
+            int goalOwn_Away = 0;
+            int redCard_Away = 0;
+
 
             for (String homeEvent : homeEvents) {
                 if (homeEvent.equals("goal-own")) {
@@ -312,5 +314,179 @@ public class Reader {
 
         bw.close();
     }
+
+
+    public void statistikFileEvntsCountSchreibenWithTemp(List<FussballSpiel> fussballSpiele) throws IOException {
+
+
+
+        FileWriter fw = new FileWriter("src/main/resources/newDatasets/newDataSetSpielEreignisseCountedWithTemp.csv");
+        BufferedWriter bw = new BufferedWriter(fw);
+
+        String header = "Venue," + "ID," + "Source," + "Target," + "Winner," + "HomeTeamGoals," + "AwayTeamGoals,"
+                + "Temperatur," + "GoalsHome," + "OwnGoalsHome," + "YellowCardHome," + "RedCardHome,"
+                + "SubstitutionInHome," + "SubstitutionOutHome," + "GoalsAway," + "OwnGoalsAway," + "YellowCardAway,"
+                + "RedCardAway," + "SubstitutionInAway," + "SubstitutionOutAway";
+
+        bw.write(header);
+        bw.write("\n");
+
+        for (FussballSpiel fussballSpiel : fussballSpiele) {
+
+            List<String> homeEvents = new ArrayList<>();
+            homeEvents.add(fussballSpiel.getHome_team_events_0_type_of_event_35());
+            homeEvents.add(fussballSpiel.getHome_team_events_1_type_of_event_39());
+            homeEvents.add(fussballSpiel.getHome_team_events_2_type_of_event_43());
+            homeEvents.add(fussballSpiel.getHome_team_events_3_type_of_event_47());
+            homeEvents.add(fussballSpiel.getHome_team_events_4_type_of_event_51());
+            homeEvents.add(fussballSpiel.getHome_team_events_5_type_of_event_55());
+            homeEvents.add(fussballSpiel.getHome_team_events_6_type_of_event_59());
+            homeEvents.add(fussballSpiel.getHome_team_events_7_type_of_event_63());
+            homeEvents.add(fussballSpiel.getHome_team_events_8_type_of_event_67());
+            homeEvents.add(fussballSpiel.getHome_team_events_9_type_of_event_71());
+            homeEvents.add(fussballSpiel.getHome_team_events_10_type_of_event_75());
+            homeEvents.add(fussballSpiel.getHome_team_events_11_type_of_event_79());
+            int goals_Home = 0;
+            int substitutionIn_Home = 0;
+            int substitutionOut_Home = 0;
+            int yellowCard_Home = 0;
+            int goalOwn_Home = 0;
+            int redCard_Home = 0;
+
+            int goals_Away = 0;
+            int substitutionIn_Away = 0;
+            int substitutionOut_Away = 0;
+            int yellowCard_Away = 0;
+            int goalOwn_Away = 0;
+            int redCard_Away = 0;
+
+            for (String homeEvent : homeEvents) {
+                if (homeEvent.equals("goal-own")) {
+                    goalOwn_Home++;
+                }
+                if (homeEvent.equals("goal")) {
+                    goals_Home++;
+                }
+                if (homeEvent.equals("red-card")) {
+                    redCard_Home++;
+                }
+                if (homeEvent.equals("yellow-card")) {
+                    yellowCard_Home++;
+                }
+                if (homeEvent.equals("substitution-in")) {
+                    substitutionIn_Home++;
+                }
+                if (homeEvent.equals("substitution-out")) {
+                    substitutionOut_Home++;
+                }
+            }
+            List<String> awayEvents = new ArrayList<>();
+            awayEvents.add(fussballSpiel.getAway_team_events_0_type_of_event_83());
+            awayEvents.add(fussballSpiel.getAway_team_events_1_type_of_event_87());
+            awayEvents.add(fussballSpiel.getAway_team_events_2_type_of_event_91());
+            awayEvents.add(fussballSpiel.getAway_team_events_3_type_of_event_95());
+            awayEvents.add(fussballSpiel.getAway_team_events_4_type_of_event_99());
+            awayEvents.add(fussballSpiel.getAway_team_events_5_type_of_event_103());
+            awayEvents.add(fussballSpiel.getAway_team_events_6_type_of_event_107());
+            awayEvents.add(fussballSpiel.getAway_team_events_7_type_of_event_111());
+
+            for (String awayEvent : awayEvents) {
+                if (awayEvent.equals("goal-own")) {
+                    goalOwn_Away++;
+                }
+                if (awayEvent.equals("goal")) {
+                    goals_Away++;
+                }
+                if (awayEvent.equals("red-card")) {
+                    redCard_Away++;
+                }
+                if (awayEvent.equals("yellow-card")) {
+                    yellowCard_Away++;
+                }
+                if (awayEvent.equals("substitution-in")) {
+                    substitutionIn_Away++;
+                }
+                if (awayEvent.equals("substitution-out")) {
+                    substitutionOut_Away++;
+                }
+            }
+
+            String attribut1 = fussballSpiel.getVenue_0();
+            String attribut2 = fussballSpiel.getId_4();
+            String attribut3 = fussballSpiel.getSource_21();
+            String attribut4 = fussballSpiel.getTarget_22();
+            String attribut5 = fussballSpiel.getWinner_24();
+            String attribut6 = fussballSpiel.getHome_team_goals_28();
+            String attribut7 = fussballSpiel.getAway_team_goals_32();
+            String attribut8 = fussballSpiel.getTemp_celsius_6();
+            int attribut9 = goals_Home;
+            int attribut10 = goalOwn_Home;
+            int attribut11 = yellowCard_Home;
+            int attribut12 = redCard_Home;
+            int attribut13 = substitutionIn_Home;
+            int attribut14 = substitutionOut_Home;
+            int attribut15 = goals_Away;
+            int attribut16 = goalOwn_Away;
+            int attribut17 = yellowCard_Away;
+            int attribut18 = redCard_Away;
+            int attribut19 = substitutionIn_Away;
+            int attribut20 = substitutionOut_Away;
+
+            String zeile =
+                    attribut1 + "," + attribut2 + "," + attribut3 + "," + attribut4 + "," + attribut5 + "," + attribut6
+                            + "," + attribut7 + "," + attribut8 + "," + attribut9 + "," + attribut10 + "," + attribut11
+                            + "," + attribut12 + "," + attribut13 + "," + attribut14 + "," + attribut15 + ","
+                            + attribut16 + "," + attribut17 + "," + attribut18 + "," + attribut19 + "," + attribut20;
+            bw.write(zeile);
+            bw.write("\n");
+        }
+
+        bw.close();
+    }
+
+    public void statistikFileOffsideCornerDistamcePassesAttemptances(List<FussballSpiel> fussballSpiele) throws IOException {
+
+
+
+        FileWriter fw = new FileWriter("src/main/resources/newDatasets/newDataSetSpielOffsideCornerDistamcePassesAttemptances.csv");
+        BufferedWriter bw = new BufferedWriter(fw);
+
+        String header = "Venue," + "ID," + "Source," + "Target," + "Winner," + "HomeTeamGoals," + "AwayTeamGoals,"
+                + "Temperatur," + "Attendance," + "OffidesHome," + "OffidesAway," + "CornersHome,"
+                + "CornersAway," + "NumPassesHome," + "NumPassesAway," + "DistanceCoveredHome," + "DistanceCoveredAway,"
+                + "AttemptsOnGoalHome," +  "AttemptsOnGoalAway";
+
+        bw.write(header);
+        bw.write("\n");
+
+        for (FussballSpiel fussballSpiel : fussballSpiele) {
+    String attribut1 = fussballSpiel.getVenue_0();
+            String attribut2 = fussballSpiel.getId_4();
+            String attribut3 = fussballSpiel.getSource_21();
+            String attribut4 = fussballSpiel.getTarget_22();
+            String attribut5 = fussballSpiel.getWinner_24();
+            String attribut6 = fussballSpiel.getHome_team_goals_28();
+            String attribut7 = fussballSpiel.getAway_team_goals_32();
+            String attribut8 = fussballSpiel.getTemp_celsius_6();
+            String attribut9 = fussballSpiel.getAttendance_10();
+           String attribut10 = fussballSpiel.getHome_team_statistics_offsides_121();
+           String attribut11 = fussballSpiel.getAway_team_statistics_offsides_233() ;
+           String attribut12 = fussballSpiel.getHome_team_statistics_corners_120() ;
+           String attribut13 = fussballSpiel.getAway_team_statistics_corners_232();
+           String attribut14 = fussballSpiel.getHome_team_statistics_num_passes_124();
+           String attribut15 = fussballSpiel.getAway_team_statistics_num_passes_236();
+           String attribut16 = fussballSpiel.getHome_team_statistics_distance_covered_126();
+           String attribut17 = fussballSpiel.getAway_team_statistics_distance_covered_238();
+           String attribut18 = fussballSpiel.getHome_team_statistics_attempts_on_goal_115();
+           String attribut19 = fussballSpiel.getAway_team_statistics_attempts_on_goal_227();
+
+            String zeile =
+                    attribut1 + "," + attribut2 + "," + attribut3 + "," + attribut4 + "," + attribut5 + "," + attribut6
+                            + "," + attribut7 + "," + attribut8 + "," + attribut9 + "," + attribut10 + "," + attribut11
+                            + "," + attribut12 + "," + attribut13 + "," + attribut14 + "," + attribut15 + ","
+                            + attribut16 + "," + attribut17 + "," + attribut18 + "," + attribut19 ;
+            bw.write(zeile);
+            bw.write("\n");
+        }}
 
 }

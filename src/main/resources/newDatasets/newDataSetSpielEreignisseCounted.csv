@@ -1,65 +1,65 @@
-Venue,ID,Source,Target,Winner,HomeTeamGoals,AwayTeamGoals,Attendance,GoalsHome,OwnGoalsHome,YellowCardHomeRedCardHome,SubstitutionInHome,SubstitutionOutHome,GoalsAway,OwnGoalsAway,YellowCardAway,RedCardAway,SubstitutionInAway,SubstitutionOutAway
+Venue,ID,Source,Target,Winner,HomeTeamGoals,AwayTeamGoals,Attendance,GoalsHome,OwnGoalsHome,YellowCardHome,RedCardHome,SubstitutionInHome,SubstitutionOutHome,GoalsAway,OwnGoalsAway,YellowCardAway,RedCardAway,SubstitutionInAway,SubstitutionOutAway
 Moscow,300331503,Russia,Saudi Arabia,Russia,5,0,78011,5,0,1,0,3,3,0,0,1,0,4,3
-Ekaterinburg,300353632,Egypt,Uruguay,Uruguay,0,1,27015,5,0,3,0,6,6,1,0,1,0,7,6
-St. Petersburg,300331526,Morocco,Iran,Iran,0,1,62548,5,1,4,0,10,9,1,0,3,0,11,8
-Sochi,300331524,Portugal,Spain,Draw,3,3,43866,7,1,5,0,13,12,4,0,4,0,13,10
-Kazan,300331533,France,Australia,France,2,1,41279,8,1,6,0,16,15,4,1,6,0,15,12
-Moscow,300331515,Argentina,Iceland,Draw,1,1,44190,9,1,6,0,19,18,5,1,6,0,18,15
-Saransk,300331528,Peru,Denmark,Denmark,0,1,40502,9,1,7,0,22,21,6,1,7,0,21,18
-Kaliningrad,300331523,Croatia,Nigeria,Croatia,2,0,31136,9,1,9,0,25,24,6,2,8,0,24,21
-Samara,300331529,Costa Rica,Serbia,Serbia,0,1,41432,9,1,11,0,28,27,7,2,9,0,27,24
-Moscow,300331502,Germany,Mexico,Mexico,0,1,78011,9,1,13,0,31,30,8,2,10,0,30,27
-Rostov-On-Don,300331525,Brazil,Switzerland,Draw,1,1,43109,10,1,14,0,34,33,9,2,13,0,32,29
-Nizhny Novgorod,300331499,Sweden,Korea Republic,Sweden,1,0,42300,10,1,15,0,37,36,9,2,15,0,35,32
-Sochi,300331539,Belgium,Panama,Belgium,3,0,43257,13,1,18,0,40,39,9,2,20,0,36,34
-Volgograd,300331554,Tunisia,England,England,1,2,41064,13,1,18,0,43,42,11,2,21,0,38,37
-Saransk,300331550,Colombia,Japan,Japan,1,2,40842,14,1,20,1,46,45,12,2,21,0,41,40
-Moscow,300331545,Poland,Senegal,Senegal,1,2,44190,15,3,21,1,49,48,13,2,23,0,43,43
-St. Petersburg,300331495,Russia,Egypt,Russia,3,1,64468,17,3,22,1,52,51,13,3,25,0,45,46
-Moscow,300331511,Portugal,Morocco,Portugal,1,0,78011,18,3,23,1,55,54,13,3,26,0,48,50
-Rostov-On-Don,300331530,Uruguay,Saudi Arabia,Uruguay,1,0,42678,19,3,23,1,58,57,13,3,26,0,51,53
-Kazan,300331496,Iran,Spain,Spain,0,1,42718,19,3,25,1,61,60,14,3,26,0,54,56
-Samara,300331518,Denmark,Australia,Draw,1,1,40727,20,3,27,1,63,62,14,3,26,0,57,59
-Ekaterinburg,300331527,France,Peru,France,1,0,32789,21,3,29,1,66,65,14,3,29,0,59,62
-Nizhny Novgorod,300331513,Argentina,Croatia,Croatia,0,3,43319,21,3,32,1,69,68,16,3,33,0,60,63
-St. Petersburg,300331540,Brazil,Costa Rica,Brazil,2,0,64468,23,3,34,1,72,71,16,3,34,0,63,66
-Volgograd,300331497,Nigeria,Iceland,Nigeria,2,0,40904,25,3,35,1,75,74,16,3,34,0,66,69
-Kaliningrad,300340183,Serbia,Switzerland,Switzerland,1,2,33167,26,3,39,1,77,76,18,3,35,0,68,72
-Moscow,300331547,Belgium,Tunisia,Belgium,5,2,44190,30,3,39,1,80,79,19,3,36,0,71,75
-Rostov-On-Don,300331549,Korea Republic,Mexico,Mexico,1,2,43472,31,3,43,1,83,82,20,3,36,0,73,78
-Sochi,300331501,Germany,Sweden,Germany,2,1,44287,33,3,44,1,86,85,21,3,37,0,76,81
-Nizhny Novgorod,300331546,England,Panama,England,6,1,43319,37,3,45,1,88,88,21,3,40,0,78,84
-Ekaterinburg,300331505,Japan,Senegal,Draw,2,2,32572,39,3,47,1,91,91,23,3,41,0,80,87
-Kazan,300331508,Poland,Colombia,Colombia,0,3,42873,39,3,49,1,94,94,26,3,41,0,82,90
-Samara,300331516,Uruguay,Russia,Uruguay,3,0,41970,42,3,50,1,97,97,26,4,43,0,84,92
-Volgograd,300331509,Saudi Arabia,Egypt,Saudi Arabia,2,1,36823,43,3,50,1,99,99,27,4,44,0,87,95
-Kaliningrad,300340184,Spain,Morocco,Draw,2,2,33973,46,3,50,1,102,102,28,4,49,0,88,96
-Saransk,300331500,Iran,Portugal,Draw,1,1,41685,46,3,52,1,105,105,29,4,52,0,90,98
-Moscow,300331512,Denmark,France,Draw,0,0,78011,46,3,53,1,108,108,29,4,52,0,93,101
-Sochi,300331506,Australia,Peru,Peru,0,2,44073,46,3,57,1,111,111,31,4,53,0,95,104
-Rostov-On-Don,300331510,Iceland,Croatia,Croatia,1,2,43472,46,3,60,1,114,114,32,4,54,0,98,107
-St. Petersburg,300331519,Nigeria,Argentina,Argentina,1,2,64468,46,3,62,1,117,117,33,4,56,0,100,110
-Kazan,300331532,Korea Republic,Germany,Korea Republic,2,0,41835,48,3,66,1,120,120,33,4,56,0,103,113
-Ekaterinburg,300331548,Mexico,Sweden,Sweden,0,3,33061,48,4,69,1,123,123,34,4,57,0,105,116
-Nizhny Novgorod,300331534,Switzerland,Costa Rica,Draw,2,2,43319,50,5,72,1,126,126,35,4,60,0,107,118
-Moscow,300331521,Serbia,Brazil,Brazil,0,2,44190,50,5,75,1,129,129,37,4,60,0,110,121
-Volgograd,300331507,Japan,Poland,Poland,0,1,42189,50,5,76,1,132,132,38,4,60,0,112,123
-Samara,300331553,Senegal,Colombia,Colombia,0,1,41970,50,5,77,1,135,135,39,4,61,0,115,126
-Kaliningrad,300340182,England,Belgium,Belgium,0,1,33973,50,5,77,1,137,137,40,4,63,0,117,128
-Saransk,300331520,Panama,Tunisia,Tunisia,1,2,37168,51,5,80,1,140,140,42,5,65,0,118,130
-Kazan,300331537,France,Argentina,France,4,3,42873,54,5,82,1,143,143,44,5,69,0,119,131
-Sochi,300331544,Uruguay,Portugal,Uruguay,2,1,44287,56,5,82,1,146,146,45,5,70,0,122,134
-Moscow,300331517,Spain,Russia,Russia,1,1,78011,56,5,83,1,150,150,45,6,71,0,124,136
-Nizhny Novgorod,300331498,Croatia,Denmark,Croatia,1,1,40851,57,5,83,1,154,154,47,6,71,0,127,139
-Samara,300331535,Brazil,Mexico,Brazil,2,0,41970,59,5,85,1,157,157,47,6,73,0,130,142
-Rostov-On-Don,300331551,Belgium,Japan,Belgium,3,2,41466,62,5,85,1,159,159,49,6,74,0,132,144
-St. Petersburg,300331514,Sweden,Switzerland,Sweden,1,0,64042,63,5,86,1,162,162,49,6,76,1,134,146
-Moscow,300331542,Colombia,England,England,1,1,44190,64,5,91,1,165,165,49,6,78,1,136,148
-Nizhny Novgorod,300331543,Uruguay,France,France,0,2,43319,64,5,94,1,168,168,51,6,80,1,138,150
-Kazan,300331538,Brazil,Belgium,Belgium,1,2,42873,65,6,96,1,171,171,52,6,83,1,140,152
-Samara,300331541,Sweden,England,England,0,2,39991,65,6,99,1,174,174,54,6,84,1,142,155
-Sochi,300331504,Russia,Croatia,Croatia,2,2,44287,67,6,100,1,178,178,55,6,86,1,144,158
-St. Petersburg,300331531,France,Belgium,France,1,0,64286,68,6,102,1,180,180,55,6,88,1,147,161
-Moscow,300331522,Croatia,England,Croatia,2,1,78011,70,6,105,1,183,184,56,6,89,1,150,164
-St. Petersburg,300331536,Belgium,England,Belgium,2,0,64406,72,6,106,1,186,187,56,6,92,1,152,167
-Moscow,300331552,France,Croatia,France,4,2,78011,74,6,108,1,189,190,58,7,92,1,154,170
+Ekaterinburg,300353632,Egypt,Uruguay,Uruguay,0,1,27015,0,0,2,0,3,3,1,0,0,0,3,3
+St. Petersburg,300331526,Morocco,Iran,Iran,0,1,62548,0,1,1,0,4,3,0,0,2,0,4,2
+Sochi,300331524,Portugal,Spain,Draw,3,3,43866,2,0,1,0,3,3,3,0,1,0,2,2
+Kazan,300331533,France,Australia,France,2,1,41279,1,0,1,0,3,3,0,1,2,0,2,2
+Moscow,300331515,Argentina,Iceland,Draw,1,1,44190,1,0,0,0,3,3,1,0,0,0,3,3
+Saransk,300331528,Peru,Denmark,Denmark,0,1,40502,0,0,1,0,3,3,1,0,1,0,3,3
+Kaliningrad,300331523,Croatia,Nigeria,Croatia,2,0,31136,0,0,2,0,3,3,0,1,1,0,3,3
+Samara,300331529,Costa Rica,Serbia,Serbia,0,1,41432,0,0,2,0,3,3,1,0,1,0,3,3
+Moscow,300331502,Germany,Mexico,Mexico,0,1,78011,0,0,2,0,3,3,1,0,1,0,3,3
+Rostov-On-Don,300331525,Brazil,Switzerland,Draw,1,1,43109,1,0,1,0,3,3,1,0,3,0,2,2
+Nizhny Novgorod,300331499,Sweden,Korea Republic,Sweden,1,0,42300,0,0,1,0,3,3,0,0,2,0,3,3
+Sochi,300331539,Belgium,Panama,Belgium,3,0,43257,3,0,3,0,3,3,0,0,5,0,1,2
+Volgograd,300331554,Tunisia,England,England,1,2,41064,0,0,0,0,3,3,2,0,1,0,2,3
+Saransk,300331550,Colombia,Japan,Japan,1,2,40842,1,0,2,1,3,3,1,0,0,0,3,3
+Moscow,300331545,Poland,Senegal,Senegal,1,2,44190,1,2,1,0,3,3,1,0,2,0,2,3
+St. Petersburg,300331495,Russia,Egypt,Russia,3,1,64468,2,0,1,0,3,3,0,1,2,0,2,3
+Moscow,300331511,Portugal,Morocco,Portugal,1,0,78011,1,0,1,0,3,3,0,0,1,0,3,4
+Rostov-On-Don,300331530,Uruguay,Saudi Arabia,Uruguay,1,0,42678,1,0,0,0,3,3,0,0,0,0,3,3
+Kazan,300331496,Iran,Spain,Spain,0,1,42718,0,0,2,0,3,3,1,0,0,0,3,3
+Samara,300331518,Denmark,Australia,Draw,1,1,40727,1,0,2,0,2,2,0,0,0,0,3,3
+Ekaterinburg,300331527,France,Peru,France,1,0,32789,1,0,2,0,3,3,0,0,3,0,2,3
+Nizhny Novgorod,300331513,Argentina,Croatia,Croatia,0,3,43319,0,0,3,0,3,3,2,0,4,0,1,1
+St. Petersburg,300331540,Brazil,Costa Rica,Brazil,2,0,64468,2,0,2,0,3,3,0,0,1,0,3,3
+Volgograd,300331497,Nigeria,Iceland,Nigeria,2,0,40904,2,0,1,0,3,3,0,0,0,0,3,3
+Kaliningrad,300340183,Serbia,Switzerland,Switzerland,1,2,33167,1,0,4,0,2,2,2,0,1,0,2,3
+Moscow,300331547,Belgium,Tunisia,Belgium,5,2,44190,4,0,0,0,3,3,1,0,1,0,3,3
+Rostov-On-Don,300331549,Korea Republic,Mexico,Mexico,1,2,43472,1,0,4,0,3,3,1,0,0,0,2,3
+Sochi,300331501,Germany,Sweden,Germany,2,1,44287,2,0,1,0,3,3,1,0,1,0,3,3
+Nizhny Novgorod,300331546,England,Panama,England,6,1,43319,4,0,1,0,2,3,0,0,3,0,2,3
+Ekaterinburg,300331505,Japan,Senegal,Draw,2,2,32572,2,0,2,0,3,3,2,0,1,0,2,3
+Kazan,300331508,Poland,Colombia,Colombia,0,3,42873,0,0,2,0,3,3,3,0,0,0,2,3
+Samara,300331516,Uruguay,Russia,Uruguay,3,0,41970,3,0,1,0,3,3,0,1,2,0,2,2
+Volgograd,300331509,Saudi Arabia,Egypt,Saudi Arabia,2,1,36823,1,0,0,0,2,2,1,0,1,0,3,3
+Kaliningrad,300340184,Spain,Morocco,Draw,2,2,33973,3,0,0,0,3,3,1,0,5,0,1,1
+Saransk,300331500,Iran,Portugal,Draw,1,1,41685,0,0,2,0,3,3,1,0,3,0,2,2
+Moscow,300331512,Denmark,France,Draw,0,0,78011,0,0,1,0,3,3,0,0,0,0,3,3
+Sochi,300331506,Australia,Peru,Peru,0,2,44073,0,0,4,0,3,3,2,0,1,0,2,3
+Rostov-On-Don,300331510,Iceland,Croatia,Croatia,1,2,43472,0,0,3,0,3,3,1,0,1,0,3,3
+St. Petersburg,300331519,Nigeria,Argentina,Argentina,1,2,64468,0,0,2,0,3,3,1,0,2,0,2,3
+Kazan,300331532,Korea Republic,Germany,Korea Republic,2,0,41835,2,0,4,0,3,3,0,0,0,0,3,3
+Ekaterinburg,300331548,Mexico,Sweden,Sweden,0,3,33061,0,1,3,0,3,3,1,0,1,0,2,3
+Nizhny Novgorod,300331534,Switzerland,Costa Rica,Draw,2,2,43319,2,1,3,0,3,3,1,0,3,0,2,2
+Moscow,300331521,Serbia,Brazil,Brazil,0,2,44190,0,0,3,0,3,3,2,0,0,0,3,3
+Volgograd,300331507,Japan,Poland,Poland,0,1,42189,0,0,1,0,3,3,1,0,0,0,2,2
+Samara,300331553,Senegal,Colombia,Colombia,0,1,41970,0,0,1,0,3,3,1,0,1,0,3,3
+Kaliningrad,300340182,England,Belgium,Belgium,0,1,33973,0,0,0,0,2,2,1,0,2,0,2,2
+Saransk,300331520,Panama,Tunisia,Tunisia,1,2,37168,1,0,3,0,3,3,2,1,2,0,1,2
+Kazan,300331537,France,Argentina,France,4,3,42873,3,0,2,0,3,3,2,0,4,0,1,1
+Sochi,300331544,Uruguay,Portugal,Uruguay,2,1,44287,2,0,0,0,3,3,1,0,1,0,3,3
+Moscow,300331517,Spain,Russia,Russia,1,1,78011,0,0,1,0,4,4,0,1,1,0,2,2
+Nizhny Novgorod,300331498,Croatia,Denmark,Croatia,1,1,40851,1,0,0,0,4,4,2,0,0,0,3,3
+Samara,300331535,Brazil,Mexico,Brazil,2,0,41970,2,0,2,0,3,3,0,0,2,0,3,3
+Rostov-On-Don,300331551,Belgium,Japan,Belgium,3,2,41466,3,0,0,0,2,2,2,0,1,0,2,2
+St. Petersburg,300331514,Sweden,Switzerland,Sweden,1,0,64042,1,0,1,0,3,3,0,0,2,1,2,2
+Moscow,300331542,Colombia,England,England,1,1,44190,1,0,5,0,3,3,0,0,2,0,2,2
+Nizhny Novgorod,300331543,Uruguay,France,France,0,2,43319,0,0,3,0,3,3,2,0,2,0,2,2
+Kazan,300331538,Brazil,Belgium,Belgium,1,2,42873,1,1,2,0,3,3,1,0,3,0,2,2
+Samara,300331541,Sweden,England,England,0,2,39991,0,0,3,0,3,3,2,0,1,0,2,3
+Sochi,300331504,Russia,Croatia,Croatia,2,2,44287,2,0,1,0,4,4,1,0,2,0,2,3
+St. Petersburg,300331531,France,Belgium,France,1,0,64286,1,0,2,0,2,2,0,0,2,0,3,3
+Moscow,300331522,Croatia,England,Croatia,2,1,78011,2,0,3,0,3,4,1,0,1,0,3,3
+St. Petersburg,300331536,Belgium,England,Belgium,2,0,64406,2,0,1,0,3,3,0,0,3,0,2,3
+Moscow,300331552,France,Croatia,France,4,2,78011,2,0,2,0,3,3,2,1,0,0,2,3

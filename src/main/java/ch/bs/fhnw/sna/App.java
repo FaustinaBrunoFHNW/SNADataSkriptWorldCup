@@ -12,7 +12,7 @@ public class App {
         Reader reader = new Reader();
 
       List<FussballSpiel> fussballSpiele= reader.einlesen();
-        reader.statistikFileSchreiben(fussballSpiele);
+        reader.statistikFileOffsideCornerDistamcePassesAttemptances(fussballSpiele);
 
     }
 }
